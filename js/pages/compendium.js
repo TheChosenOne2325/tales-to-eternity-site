@@ -34,10 +34,12 @@ export async function openCompendium(compendiumId) {
 
   // clique -> detalhes
   content.querySelectorAll(".row.item").forEach(row => {
-    row.addEventListener("click", () => {
+    row.addEventListener("click", async () => {
       const id = row.dataset.id;
-      const item = data.items.find(x => x.id === id);
-      if (!item) return;
+      const indexItem = data.items.find(x => x.id === id);
+if (!indexItem) return;
+const resItem = await fetch(`data/${compendiumId}/${id}.json`);
+const item = await resItem.json();
 
       const renderInline = (s) =>
   String(s ?? "").replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
@@ -59,15 +61,67 @@ const renderBlocks = (blocks = []) => blocks.map(b => {
   return "";
 }).join("");
 
+const isClass = compendiumId === "classes"; // como já está
+const specs = Array.isArray(item.specializations) ? item.specializations : [];
+const hasImage = !!item.img;
+
 details.innerHTML = `
   <h2>${item.name}</h2>
   <p><strong>Livro:</strong> ${item.book ?? ""}</p>
- ${item.blocks
-  ? renderBlocks(item.blocks)
-  : (item.text ?? []).map(p => `<p>${p}</p>`).join("")
-}
-${item.img ? `<img class="compendium-img" src="${item.img}" alt="${item.name}">` : ""}
+
+${(hasImage || isClass) ? `
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="desc">Descrição</button>
+    ${isClass ? `<button class="tab-btn" data-tab="spec">Especializações</button>` : ""}
+    ${hasImage ? `<button class="tab-btn" data-tab="img">Imagem</button>` : ""}
+  </div>
+` : ""}
+
+  <div class="tab-content">
+    <div class="tab-panel active" data-panel="desc">
+      ${
+        item.blocks
+          ? renderBlocks(item.blocks)
+          : (item.text ?? []).map(p => `<p>${p}</p>`).join("")
+      }
+    </div>
+
+${isClass ? `
+  <div class="tab-panel" data-panel="spec">
+    ${specs.length ? `
+      <div class="spec-list">
+        ${specs.map(s => `
+          <button class="spec-pill" data-spec="${s.id}">${s.name}</button>
+        `).join("")}
+      </div>
+      <div class="spec-preview">
+        <p>Clique em uma especialização.</p>
+      </div>
+    ` : `<p>Sem especializações cadastradas.</p>`}
+  </div>
+` : ""}
+
+    ${hasImage ? `
+      <div class="tab-panel" data-panel="img">
+        <img class="compendium-img" src="${item.img}" alt="${item.name}">
+      </div>
+    ` : ""}
+  </div>
 `;
+details.querySelectorAll(".tab-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const tab = btn.dataset.tab;
+
+    details.querySelectorAll(".tab-btn").forEach(b =>
+      b.classList.toggle("active", b === btn)
+    );
+
+    details.querySelectorAll(".tab-panel").forEach(p =>
+      p.classList.toggle("active", p.dataset.panel === tab)
+    );
+  });
+});
+
     });
   });
 }

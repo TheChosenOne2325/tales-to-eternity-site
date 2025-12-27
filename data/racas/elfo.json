@@ -1,0 +1,32 @@
+{
+  "id": "elfo",
+  "name": "Elfo",
+  "book": "EdC",
+  "img": "assets/imagens/racas/elfo.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Os elfos estão entre os povos mais antigos do mundo. Eles se estabelecem em quase qualquer ambiente e, ao longo das gerações, passam a refletir o local onde vivem. Sua cultura é marcada por adaptação, longevidade e uma relação profunda com o ambiente ao redor."
+    },
+    {
+      "type": "p",
+      "text": "Elfos possuem corpos esguios, traços delicados e olhos expressivos. Pequenas variações físicas surgem conforme a região: tons de pele, marcas naturais ou detalhes sutis ligados ao ambiente."
+    },
+    {
+      "type": "rules",
+      "items": [
+        "Altura média: 1,70 m a 1,90 m",
+        "Maturidade: cerca de 70 anos",
+        "Idade média: 600 anos"
+      ]
+    },
+    { "type": "h3", "text": "Habilidades Raciais" },
+    {
+      "type": "rules",
+      "items": [
+        "**Filhos do Ambiente:** você tem vantagem em testes relacionados ao ambiente ou região onde foi criado.",
+        "**Passos Eternos:** 1 vez por cena, você pode ignorar uma penalidade narrativa ligada a terreno, clima ou deslocamento."
+      ]
+    }
+  ]
+}

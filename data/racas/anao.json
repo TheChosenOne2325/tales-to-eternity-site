@@ -1,0 +1,35 @@
+{
+  "id": "anao",
+  "name": "Anão",
+  "book": "EdC",
+  "img": "assets/imagens/racas/anao.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Os anões erguem suas cidades próximas, coladas ou diretamente esculpidas nas montanhas. Suas sociedades valorizam tradição, laços familiares, resistência e o trabalho que atravessa gerações. Gemas, metais e símbolos ancestrais fazem parte do cotidiano, usados como adornos, marcas de linhagem e registros históricos."
+    },
+    {
+      "type": "p",
+      "text": "Fisicamente, são baixos e robustos, com corpos densos, ombros largos e traços firmes. Barbas, joias e vestimentas frequentemente exibem símbolos do clã, da família ou da cidade natal."
+    },
+
+    {
+      "type": "rules",
+      "items": [
+        "Altura média: 1,30 m a 1,50 m",
+        "Maturidade: cerca de 40 anos",
+        "Idade média: 250 anos"
+      ]
+    },
+
+    { "type": "h3", "text": "Habilidades Raciais" },
+
+    {
+      "type": "rules",
+      "items": [
+        "**Resiliência Ancestral:** 1 vez por cena, você pode reduzir pela metade o dano que receberia.",
+        "**Corpo de Pedra:** você recebe +2 de Vida por Tier em que estiver."
+      ]
+    }
+  ]
+}

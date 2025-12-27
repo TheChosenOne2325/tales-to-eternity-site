@@ -1,0 +1,180 @@
+{
+  "id": "classes",
+  "title": "Classes",
+  "columns": ["Nome", "Livro"],
+  "items": [
+   {
+  "id": "arqueiro",
+  "name": "Arqueiro",
+  "book": "EdC",
+  "img": "assets/imagens/classes/arqueiro.webp",
+   "specializations": [
+  { "id": "predador", "name": "Predador" },
+  { "id": "atirador-de-fenda", "name": "Atirador de Fenda" }
+],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Arqueiros nasceram como caçadores — aqueles que garantiam alimento e segurança para seu povo. Com o tempo, suas técnicas se tornaram também instrumentos de defesa territorial e guerra."
+    },
+    {
+      "type": "p",
+      "text": "Um Arqueiro domina distância, precisão e posicionamento. Ele decide quando atacar, quando se mover e quando esperar o instante certo. Sua força não está em suportar impactos, mas em encerrar ameaças antes que elas cheguem perto."
+    },
+
+    {
+      "type": "h3",
+      "text": "Valores Iniciais"
+    },
+    {
+      "type": "rules",
+      "items": [
+        "Vida: 5",
+        "Fadiga: 3",
+        "Defesa: 9"
+      ]
+    },
+
+    {
+      "type": "h3",
+      "text": "Escolas de Magia"
+    },
+    {
+      "type": "rules",
+      "items": [
+        "Guerra",
+        "Transmutação"
+      ]
+    },
+
+    {
+      "type": "h3",
+      "text": "Características de Classe"
+    },
+    {
+      "type": "rules",
+      "items": [
+        "**Precisão Treinada:** Se você não se mover durante o turno, seus ataques com armas à distância causam +2 de dano.",
+        "**Mobilidade Instintiva:** Quando um inimigo que estava a distância distante se aproxima e realiza um ataque corpo a corpo contra você, ele sofre −2 na rolagem de ataque."
+      ]
+    }
+  ]
+},
+{
+  "id": "curandeiro",
+  "name": "Curandeiro",
+  "book": "EdC",
+  "img": "assets/imagens/classes/curandeiro.webp",
+ "specializations": [
+    { "id": "medico-de-campo", "name": "Médico de Campo" },
+    { "id": "tecelao", "name": "Tecelão" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Curandeiros surgiram como aqueles que cuidavam dos feridos, tratavam doenças e preservavam vidas com conhecimento, fé ou magia restauradora. Com o avanço dos conflitos, esses saberes passaram a decidir batalhas — porque, às vezes, um único segundo separa a queda da sobrevivência." },
+    { "type": "p", "text": "Um Curandeiro não existe apenas “para curar depois”. Ele age durante o perigo: sustenta o grupo, impede colapsos e mantém aliados lutando quando já deveriam ter caído." },
+
+    { "type": "h3", "text": "Valores Iniciais" },
+    { "type": "rules", "items": ["Vida: 4", "Fadiga: 4", "Defesa: 8"] },
+
+    { "type": "h3", "text": "Escolas de Magia" },
+    { "type": "rules", "items": ["Restauração"] },
+
+    { "type": "h3", "text": "Características de Classe" },
+    {
+      "type": "rules",
+      "items": [
+        "**Mão Cuidadosa:** Sempre que você usar uma magia de cura de toque, o aliado não pode receber condições negativas até o final do próximo turno dele.",
+        "**Reflexo Cuidador:** Quando um aliado em Distância Perto sofreria dano que o reduziria a 0 de Vida, você pode usar pontos de Fadiga para reduzir esse dano, na proporção de 2 pontos de Vida para cada 1 ponto de Fadiga gasto."
+      ]
+    }
+  ]
+},
+{
+  "id": "guerreiro",
+  "name": "Guerreiro",
+  "book": "EdC",
+  "img": "assets/imagens/classes/guerreiro.webp",
+  "specializations": [
+    { "id": "quebra-linhas", "name": "Quebra-Linhas" },
+    { "id": "bastiao", "name": "Bastião" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Guerreiros são especialistas no uso de armas. Eles entendem peso, alcance, equilíbrio e técnica. Cada golpe é resultado de treino, repetição e leitura do campo de batalha." },
+    { "type": "p", "text": "Um Guerreiro sabe quando avançar, quando recuar e quando segurar a linha. Seja com lâminas, lanças, machados ou armas improvisadas, ele transforma técnica em domínio." },
+
+    { "type": "h3", "text": "Valores Iniciais" },
+    { "type": "rules", "items": ["Vida: 6", "Fadiga: 2", "Defesa: 9"] },
+
+    { "type": "h3", "text": "Escolas de Magia" },
+    { "type": "rules", "items": ["Guerra"] },
+
+    { "type": "h3", "text": "Características de Classe" },
+    {
+      "type": "rules",
+      "items": [
+        "**Técnica de Combate:** Sempre que você atacar com uma arma, escolha um dos efeitos abaixo antes da rolagem: causar +2 de dano ou receber +1 de acerto até o início do seu próximo turno. Você só pode escolher um efeito por ataque.",
+        "**Postura de Batalha:** Inimigos em Distância Próxima sofrem −1 em testes de ataque contra aliados que não sejam você."
+      ]
+    }
+  ]
+},
+{
+  "id": "ladrao",
+  "name": "Ladrão",
+  "book": "EdC",
+  "img": "assets/imagens/classes/ladrao.webp",
+  "specializations": [
+    { "id": "corredor-das-sombras", "name": "Corredor das Sombras" },
+    { "id": "brigao-de-rua", "name": "Brigão de Rua" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Ladrões são sobreviventes de ruas, becos e mercados esquecidos. Alguns roubam por necessidade, outros por ambição, desafio ou prazer." },
+    { "type": "p", "text": "Um Ladrão vence confrontos antes mesmo do combate começar: escolhe alvos, cria distrações e golpeia quando o inimigo está vulnerável." },
+
+    { "type": "h3", "text": "Valores Iniciais" },
+    { "type": "rules", "items": ["Vida: 5", "Fadiga: 3", "Defesa: 8"] },
+
+    { "type": "h3", "text": "Escolas de Magia" },
+    { "type": "rules", "items": ["Guerra", "Mente"] },
+
+    { "type": "h3", "text": "Características de Classe" },
+    {
+      "type": "rules",
+      "items": [
+        "**Ataque Oportuno:** Sempre que você atacar um inimigo em condição desfavorável ou que ainda não tenha agido na cena, você causa +2 de dano.",
+        "**Movimento Sombrio:** Quando você se move entre coberturas ou age fora da atenção direta dos inimigos, pode se tornar Oculto."
+      ]
+    }
+  ]
+},
+{
+  "id": "mago",
+  "name": "Mago",
+  "book": "EdC",
+  "img": "assets/imagens/classes/mago.webp",
+  "specializations": [
+    { "id": "devastador", "name": "Devastador" },
+    { "id": "condutor", "name": "Condutor" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Magos manipulam a magia em seu estado mais bruto. Eles puxam, distorcem e liberam energia arcana em feitiços poderosos e instáveis." },
+    { "type": "p", "text": "Um Mago caminha na linha entre controle e excesso. Cada conjuração é um risco calculado." },
+
+    { "type": "h3", "text": "Valores Iniciais" },
+    { "type": "rules", "items": ["Vida: 4", "Fadiga: 4", "Defesa: 7"] },
+
+    { "type": "h3", "text": "Escolas de Magia" },
+    { "type": "rules", "items": ["Elemental"] },
+
+    { "type": "h3", "text": "Características de Classe" },
+    {
+      "type": "rules",
+      "items": [
+        "**Canalização Instável:** Você pode adicionar 1d6 nas rolagens de acerto de ataques de magia, porém toma o resultado dessa rolagem como dano mágico em dobro.",
+        "**Absorção Arcana:** Sempre que você recebe dano mágico, você recebe +1 de Defesa até sofrer o próximo golpe."
+      ]
+    }
+  ]
+}
+  ]
+}

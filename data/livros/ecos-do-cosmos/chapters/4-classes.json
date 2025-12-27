@@ -1,0 +1,106 @@
+{
+  "id": "4-classes",
+  "title": "Capítulo 4 — Classes",
+  "blocks": [
+    { "type": "h2", "text": "Classes e Identidade" },
+
+    {
+      "type": "p",
+      "text": "As classes representam como um personagem enfrenta o mundo: como luta, explora, se protege, conjura e resolve desafios dentro da realidade de Tales To Eternity. Elas definem um conjunto de ferramentas e possibilidades — o “jeito” do personagem agir quando a história aperta."
+    },
+    {
+      "type": "p",
+      "text": "Em Tales To Eternity, todas as classes possuem algum tipo de ligação com a magia, ainda que essa conexão se manifeste de formas diferentes. Algumas canalizam o arcano de maneira direta e evidente; outras o fazem de modo sutil, integrado à técnica, à fé, à astúcia ou ao instinto."
+    },
+    {
+      "type": "p",
+      "text": "A classe não determina a personalidade. Dois personagens da mesma classe podem ter valores, motivações e comportamentos completamente distintos. Classe é caminho, não destino — uma base mecânica que serve à narrativa, e não uma prisão."
+    },
+
+    { "type": "h2", "text": "Estrutura de uma Classe" },
+
+    {
+      "type": "p",
+      "text": "Ao escolher uma classe, você recebe uma base mecânica e temática que define seu papel no jogo e suas possibilidades iniciais. De forma geral, toda classe concede:"
+    },
+
+    {
+      "type": "rules",
+      "items": [
+        "Vida base",
+        "Defesa base",
+        "Fadiga base",
+        "2 características de classe",
+        "Acesso a Escolas de Magia",
+        "2 armas iniciais à sua escolha",
+        "2 magias iniciais de sua escola"
+      ]
+    },
+
+    {
+      "type": "p",
+      "text": "Além disso, a classe pode definir outros elementos iniciais, que variam conforme a campanha ou decisões do grupo, como:"
+    },
+
+    {
+      "type": "rules",
+      "items": [
+        "Equipamentos adicionais",
+        "Dinheiro inicial",
+        "Dano das armas",
+        "Forma de uso da Defesa",
+        "Aspectos narrativos ligados à classe"
+      ]
+    },
+
+    {
+      "type": "p",
+      "text": "Esses elementos podem ser ajustados entre jogador e Narrador, reforçando o caráter flexível e narrativo do sistema."
+    },
+
+    { "type": "h2", "text": "Estrutura de uma Especialização" },
+
+    {
+      "type": "p",
+      "text": "Após escolher sua classe, você escolhe uma especialização. Ela aprofunda o estilo da classe e pode alterar de forma significativa seu foco e identidade."
+    },
+    {
+      "type": "p",
+      "text":  "A especialização define principalmente:"
+    },
+    {
+      "type": "rules",
+      "items": [
+        "O atributo mágico principal, usado para conjuração e efeitos ligados à magia",
+        "Uma característica por Tier, representando crescimento e domínio"
+      ]
+    },
+
+    {
+      "type": "p",
+      "text": "Essas características são adquiridas nos níveis:"
+    },
+
+    {
+      "type": "rules",
+      "items": [
+        "Nível 1 — Base",
+        "Nível 4 — Aperfeiçoamento",
+        "Nível 7 — Avançado",
+        "Nível 10 — Supremo"
+      ]
+    },
+
+    {
+      "type": "p",
+      "text": "Dessa forma, a especialização acompanha o desenvolvimento do personagem ao longo da campanha, oferecendo novas possibilidades sem romper a identidade original da classe."
+    },
+
+    { "type": "h2", "text": "Lista de Classes" },
+
+    {
+      "type": "p",
+      "text": "A lista completa de raças jogáveis, com suas características e descrições, está disponível no [Compendium de Classes](compendium:classes)."
+    }
+  ]
+}

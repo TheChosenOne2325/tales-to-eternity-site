@@ -3,37 +3,10 @@
   "title": "Evoluções",
   "columns": ["Nome", "Livro"],
   "items": [
-    {
-      "id": "evo-atributos-2x1",
-      "name": "+1 em dois atributos não marcados",
-      "book": "EdC",
-      "text": [
-        "Aumente 2 atributos e marque ambos. Atributos marcados não podem ser aumentados novamente nesse Tier."
-      ]
-    },
-    {
-      "id": "evo-vida-2",
-      "name": "+2 na Vida",
-      "book": "EdC",
-      "text": ["Aumento permanente."]
-    },
-    {
-      "id": "evo-fadiga-2",
-      "name": "+2 na Fadiga",
-      "book": "EdC",
-      "text": ["Aumento permanente."]
-    },
-    {
-      "id": "evo-aspecto-1",
-      "name": "+1 em 1 Aspecto",
-      "book": "EdC",
-      "text": ["Escolha um Aspecto e aumente seu valor em +1."]
-    },
-    {
-      "id": "evo-magia-1",
-      "name": "+1 magia",
-      "book": "EdC",
-      "text": ["Aprenda uma nova magia da sua escola do seu Tier ou de um Tier anterior."]
-    }
+    { "id": "evo-atributos-2x1", "name": "+1 em dois atributos não marcados", "book": "EdC" },
+    { "id": "evo-vida-2", "name": "+2 na Vida", "book": "EdC" },
+    { "id": "evo-fadiga-2", "name": "+2 na Fadiga", "book": "EdC" },
+    { "id": "evo-aspecto-1", "name": "+1 em 1 Aspecto", "book": "EdC" },
+    { "id": "evo-magia-1", "name": "+1 magia", "book": "EdC" }
   ]
 }

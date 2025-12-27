@@ -1,0 +1,32 @@
+{
+  "id": "humano",
+  "name": "Humano",
+  "book": "EdC",
+  "img": "assets/imagens/racas/humano.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Os humanos são definidos por sua adaptabilidade. Eles surgem em praticamente qualquer lugar, moldando suas culturas conforme o ambiente, os conflitos e as oportunidades ao redor. Sua diversidade é sua maior força."
+    },
+    {
+      "type": "p",
+      "text": "Fisicamente, variam enormemente em aparência, altura e traços. Não existe um “padrão humano”: cada região desenvolve suas próprias características culturais e estéticas."
+    },
+    {
+      "type": "rules",
+      "items": [
+        "Altura média: 1,60 m a 1,85 m",
+        "Maturidade: cerca de 18 anos",
+        "Idade média: 100 anos"
+      ]
+    },
+    { "type": "h3", "text": "Habilidades Raciais" },
+    {
+      "type": "rules",
+      "items": [
+        "**Versatilidade Humana:** escolha 1 atributo; 1 vez por cena, você pode adicionar +2 a uma rolagem usando esse atributo.",
+        "**Aprendizado Rápido:** você pode repetir um teste falhado 1 vez por cena."
+      ]
+    }
+  ]
+}

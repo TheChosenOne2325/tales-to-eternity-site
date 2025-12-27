@@ -1,4 +1,5 @@
 [
   { "id": "evolucoes", "title": "Evoluções" },
-  { "id": "racas", "title": "Raças" }
+  { "id": "racas", "title": "Raças" },
+  { "id": "classes", "title": "Classes" }
 ]

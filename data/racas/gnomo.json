@@ -1,0 +1,32 @@
+{
+  "id": "gnomo",
+  "name": "Gnomo",
+  "book": "EdC",
+  "img": "assets/imagens/racas/gnomo.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Os gnomos são um povo pequeno, dedicado à agricultura, à criação de animais e ao cuidado da terra. Vivem em comunidades rurais organizadas, com forte senso de coletividade e amplo conhecimento prático sobre ciclos naturais."
+    },
+    {
+      "type": "p",
+      "text": "Fisicamente, são baixos, de mãos ágeis e corpos resistentes ao trabalho diário. Suas roupas costumam ser simples, funcionais e adaptadas à vida no campo."
+    },
+    {
+      "type": "rules",
+      "items": [
+        "Altura média: 1,10 m a 1,30 m",
+        "Maturidade: cerca de 25 anos",
+        "Idade média: 150 anos"
+      ]
+    },
+    { "type": "h3", "text": "Habilidades Raciais" },
+    {
+      "type": "rules",
+      "items": [
+        "**Trabalhador:** toda atividade de descanso concede 50% a mais de benefício.",
+        "**Conhecimento da Terra:** você tem vantagem em testes ligados à agricultura, criação de animais, alimentos, clima e vida rural."
+      ]
+    }
+  ]
+}

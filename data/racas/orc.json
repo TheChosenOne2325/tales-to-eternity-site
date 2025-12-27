@@ -1,0 +1,32 @@
+{
+  "id": "orc",
+  "name": "Orc",
+  "book": "EdC",
+  "img": "assets/imagens/racas/orc.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Os orcs são um povo alto, forte e moldado pelo ambiente em que vive. Suas culturas variam conforme a região — desertos, tundras, selvas ou planícies geram tradições e aparências distintas. Apesar da fama de brutalidade, muitos orcs valorizam honra, comunidade e sobrevivência acima de tudo."
+    },
+    {
+      "type": "p",
+      "text": "Fisicamente, são imponentes e musculosos. A cor da pele, marcas naturais, presas e pinturas culturais variam de acordo com o território e a tradição local."
+    },
+    {
+      "type": "rules",
+      "items": [
+        "Altura média: 1,90 m a 2,30 m",
+        "Maturidade: cerca de 15 anos",
+        "Idade média: 70 anos"
+      ]
+    },
+    { "type": "h3", "text": "Habilidades Raciais" },
+    {
+      "type": "rules",
+      "items": [
+        "**Fúria Controlada:** 1 vez por cena, após sofrer dano, você pode ganhar vantagem na próxima ação de ataque.",
+        "**Corpo Brutal:** você ignora a primeira penalidade narrativa causada por dor, ferimentos ou intimidação em uma cena."
+      ]
+    }
+  ]
+}
