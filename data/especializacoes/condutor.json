@@ -1,0 +1,18 @@
+{
+  "id": "condutor",
+  "name": "Condutor",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/especializacoes/condutor.webp",
+  "blocks": [
+    { "type": "p", "text": "Você aceita que a magia não segue linhas retas. Em vez de tentar “domar” o caos, você aprende a guiá-lo — transformando instabilidade em vantagem." },
+    { "type": "h3", "text": "Atributo Mágico" },
+    { "type": "rules", "items": ["Saber"] },
+    { "type": "h3", "text": "Características por Tier" },
+    { "type": "rules", "items": [
+      "**Base — Controle Canalizado:** O dado da Canalização Instável pode virar um d4 e você não toma mais o dano dobrado.",
+      "**Aperfeiçoamento — Instabilidade Sustentada:** Você recupera pontos de Fadiga igual ao valor resultado do dado da Canalização Instável.",
+      "**Avançado — Instabilidade Danosa:** O dado rolado da Canalização Instável também é transformado em dano mágico.",
+      "**Supremo — Caos Direcionado:** Canalização Instável pode virar um d12."
+    ] }
+  ]
+}

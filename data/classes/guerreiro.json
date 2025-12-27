@@ -1,0 +1,29 @@
+{
+  "id": "guerreiro",
+  "name": "Guerreiro",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/classes/guerreiro.webp",
+  "specializations": [
+    { "id": "quebra-linhas", "name": "Quebra-Linhas" },
+    { "id": "bastiao", "name": "Bastião" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Guerreiros são especialistas no uso de armas. Eles entendem peso, alcance, equilíbrio e técnica. Cada golpe é resultado de treino, repetição e leitura do campo de batalha." },
+    { "type": "p", "text": "Um Guerreiro sabe quando avançar, quando recuar e quando segurar a linha. Seja com lâminas, lanças, machados ou armas improvisadas, ele transforma técnica em domínio." },
+
+    { "type": "h3", "text": "Valores Iniciais" },
+    { "type": "rules", "items": ["Vida: 6", "Fadiga: 2", "Defesa: 9"] },
+
+    { "type": "h3", "text": "Escolas de Magia" },
+    { "type": "rules", "items": ["Guerra"] },
+
+    { "type": "h3", "text": "Características de Classe" },
+    {
+      "type": "rules",
+      "items": [
+        "**Técnica de Combate:** Sempre que você atacar com uma arma, escolha um dos efeitos abaixo antes da rolagem: causar +2 de dano ou receber +1 de acerto até o início do seu próximo turno. Você só pode escolher um efeito por ataque.",
+        "**Postura de Batalha:** Inimigos em Distância Próxima sofrem −1 em testes de ataque contra aliados que não sejam você."
+      ]
+    }
+  ]
+}

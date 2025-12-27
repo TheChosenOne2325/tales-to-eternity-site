@@ -1,0 +1,18 @@
+{
+  "id": "devastador",
+  "name": "Devastador",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/especializacoes/devastador.webp",
+  "blocks": [
+    { "type": "p", "text": "Você não “molda” o elemento — você o solta. Sua magia é impacto, ruptura e força bruta canalizada para destruir antes que o inimigo respire." },
+    { "type": "h3", "text": "Atributo Mágico" },
+    { "type": "rules", "items": ["Saber"] },
+    { "type": "h3", "text": "Características por Tier" },
+    { "type": "rules", "items": [
+      "**Base — Sobrecarga Controlada:** Sempre que você conjurar uma magia de Tier 1 ou maior, pode usar 1 ponto de Fadiga para causar +2 de dano.",
+      "**Aperfeiçoamento — Impacto Expandido:** O efeito da Sobrecarga Controlada vira +4.",
+      "**Avançado — Ruptura Arcana:** Ao causar dano mágico com suas magias, o próximo ataque do alvo tem desvantagem.",
+      "**Supremo — Descarga Absoluta:** Ao conjurar uma magia, metade do dano que ela causa se transforma em dano direto."
+    ] }
+  ]
+}

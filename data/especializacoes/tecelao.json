@@ -1,0 +1,18 @@
+{
+  "id": "tecelao",
+  "name": "Tecelão",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/especializacoes/tecelao.webp",
+  "blocks": [
+    { "type": "p", "text": "Você não reage ao ferimento — você o prevê. Você fortalece aliados antes do golpe, cria proteção invisível e mantém o grupo inteiro de pé quando a luta se prolonga." },
+    { "type": "h3", "text": "Atributo Mágico" },
+    { "type": "rules", "items": ["Saber"] },
+    { "type": "h3", "text": "Características por Tier" },
+    { "type": "rules", "items": [
+      "**Base — Vínculo Protetor:** Escolha um aliado. Sempre que ele receber cura sua, ele recupera +2 de Vida adicional.",
+      "**Aperfeiçoamento — Reserva Vital:** Sempre que você curar um aliado que já esteja com Vida cheia, ele recebe o valor como vida extra.",
+      "**Avançado — Ritmo Sustentado:** Quando um aliado que recebeu sua cura sofrer dano em seguida, você pode usar 1 ponto de Fadiga para aplicar uma proteção que previne o dano sofrido em 1d20.",
+      "**Supremo — Rede de Sobrevivência:** Quando você restaurar Vida, pode aplicar metade do valor de cura a outro aliado em Distância Próxima do alvo usando 2 pontos de Fadiga."
+    ] }
+  ]
+}

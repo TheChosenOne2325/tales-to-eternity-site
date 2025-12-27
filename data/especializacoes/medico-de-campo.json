@@ -1,0 +1,19 @@
+
+{
+  "id": "medico-de-campo",
+  "name": "Médico de Campo",
+  "book": "Ecos dos Cosmos",
+  "img": "assets/imagens/especializacoes/medico-de-campo.webp",
+  "blocks": [
+    { "type": "p", "text": "Você aprendeu a salvar vidas no pior lugar possível: no caos. Você avança quando todos recuam, calcula riscos e transforma segundos em sobrevivência." },
+    { "type": "h3", "text": "Atributo Mágico" },
+    { "type": "rules", "items": ["Saber"] },
+    { "type": "h3", "text": "Características por Tier" },
+    { "type": "rules", "items": [
+      "**Base — Movimento Calculado:** Se movimentar para perto de um aliado para realizar uma ação de cura reduz em −1 o teste de dificuldade para alcançá-lo.",
+      "**Aperfeiçoamento — Reflexo Vital:** O Reflexo Cuidador evolui, permitindo que você faça isso com criaturas em distância distante agora.",
+      "**Avançado — Estabilização Rápida:** Quando você cura um aliado, ele não pode ser reduzido abaixo de 1 de Vida pelo próximo ataque que sofrer.",
+      "**Supremo — Última Linha:** Quando um aliado em Distância Perto seria reduzido a 0 de Vida, você pode agir imediatamente antes do dano ser aplicado, realizando uma cura ou redução de dano como se estivesse em Distância Próxima."
+    ] }
+  ]
+}

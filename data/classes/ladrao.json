@@ -1,0 +1,29 @@
+{
+  "id": "ladrao",
+  "name": "Ladrão",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/classes/ladrao.webp",
+  "specializations": [
+    { "id": "corredor-das-sombras", "name": "Corredor das Sombras" },
+    { "id": "brigao-de-rua", "name": "Brigão de Rua" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Ladrões são sobreviventes de ruas, becos e mercados esquecidos. Alguns roubam por necessidade, outros por ambição, desafio ou prazer." },
+    { "type": "p", "text": "Um Ladrão vence confrontos antes mesmo do combate começar: escolhe alvos, cria distrações e golpeia quando o inimigo está vulnerável." },
+
+    { "type": "h3", "text": "Valores Iniciais" },
+    { "type": "rules", "items": ["Vida: 5", "Fadiga: 3", "Defesa: 8"] },
+
+    { "type": "h3", "text": "Escolas de Magia" },
+    { "type": "rules", "items": ["Guerra", "Mente"] },
+
+    { "type": "h3", "text": "Características de Classe" },
+    {
+      "type": "rules",
+      "items": [
+        "**Ataque Oportuno:** Sempre que você atacar um inimigo em condição desfavorável ou que ainda não tenha agido na cena, você causa +2 de dano.",
+        "**Movimento Sombrio:** Quando você se move entre coberturas ou age fora da atenção direta dos inimigos, pode se tornar Oculto."
+      ]
+    }
+  ]
+}

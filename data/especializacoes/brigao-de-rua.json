@@ -1,0 +1,19 @@
+
+{
+  "id": "brigao-de-rua",
+  "name": "Brigão de Rua",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/especializacoes/brigao-de-rua.webp",
+  "blocks": [
+    { "type": "p", "text": "Você aprendeu a lutar sem regras. Usa cotovelos, joelhos, golpes baixos e o ambiente como arma. Para você, vencer é sobreviver — e sobreviver é fazer o oponente hesitar." },
+    { "type": "h3", "text": "Atributo Mágico" },
+    { "type": "rules", "items": ["Poder"] },
+    { "type": "h3", "text": "Características por Tier" },
+    { "type": "rules", "items": [
+      "**Base — Golpe Sujo:** Você distrai o inimigo antes de atacar. Você pode usar 1 ponto de Fadiga para ter +2 de acerto contra o alvo.",
+      "**Aperfeiçoamento — Jeito Ameaçador:** O primeiro ataque que o alvo faz contra você recebe −2 de acerto.",
+      "**Avançado — Aguentar e Revidar:** Sempre que você sofrer dano em combate corpo a corpo, seu próximo ataque causa +2 de dano contra o alvo que causou dano em você.",
+      "**Supremo — Execução Ameaçadora:** Quando você reduz um inimigo a 0 de Vida, o efeito do Jeito Ameaçador reseta."
+    ] }
+  ]
+}

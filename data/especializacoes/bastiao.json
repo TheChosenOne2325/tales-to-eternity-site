@@ -1,0 +1,18 @@
+{
+  "id": "bastiao",
+  "name": "Bastiãogit",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/especializacoes/bastiao.webp",
+  "blocks": [
+    { "type": "p", "text": "Você não está na linha de frente para vencer rápido — está para não cair. Você segura corredores, protege aliados e vira obstáculo onde a batalha precisa parar." },
+    { "type": "h3", "text": "Atributo Mágico" },
+    { "type": "rules", "items": ["Poder"] },
+    { "type": "h3", "text": "Características por Tier" },
+    { "type": "rules", "items": [
+      "**Base — Corpo como Escudo:** Sempre que um aliado em Distância Próxima sofreria dano, você pode escolher receber 2 pontos desse dano no lugar dele.",
+      "**Aperfeiçoamento — Ancorado:** Enquanto você não se mover no turno, recebe +1 na Defesa e não pode ser empurrado contra sua vontade.",
+      "**Avançado — Zona de Contenção:** Inimigos em Distância Perto sofrem −1 em testes de ataque ao tentar atingir aliados que estejam em distância próxima de você.",
+      "**Supremo — Muralha Viva:** Aliados em Distância Próxima recebem −2 de dano de todas as fontes."
+    ] }
+  ]
+}

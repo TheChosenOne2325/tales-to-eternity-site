@@ -1,0 +1,18 @@
+{
+  "id": "corredor-das-sombras",
+  "name": "Corredor das Sombras",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/especializacoes/corredor-das-sombras.webp",
+  "blocks": [
+    { "type": "p", "text": "Você sobreviveu correndo. Entra, golpeia e some antes que o inimigo entenda o que aconteceu. Seu corpo aprende rotas, sua mente aprende brechas." },
+    { "type": "h3", "text": "Atributo Mágico" },
+    { "type": "rules", "items": ["Agilidade"] },
+    { "type": "h3", "text": "Características por Tier" },
+    { "type": "rules", "items": [
+      "**Base — Golpe Deslizante:** Se você se mover antes de atacar, causa +2 de dano.",
+      "**Aperfeiçoamento — Ritmo Imparável:** Após causar dano, o próximo ataque contra você sofre −1 no acerto.",
+      "**Avançado — Dança de Becos:** Você consegue ignorar a maioria das penalidades de movimento referente a terreno.",
+      "**Supremo — Movimento Perfeito:** Você pode mover, atacar e se mover para a próxima distância sem custo adicional, mas ainda pode ser afetado normalmente."
+    ] }
+  ]
+}

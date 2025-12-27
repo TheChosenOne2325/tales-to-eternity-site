@@ -1,0 +1,29 @@
+{
+  "id": "curandeiro",
+  "name": "Curandeiro",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/classes/curandeiro.webp",
+ "specializations": [
+    { "id": "medico-de-campo", "name": "Médico de Campo" },
+    { "id": "tecelao", "name": "Tecelão" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Curandeiros surgiram como aqueles que cuidavam dos feridos, tratavam doenças e preservavam vidas com conhecimento, fé ou magia restauradora. Com o avanço dos conflitos, esses saberes passaram a decidir batalhas — porque, às vezes, um único segundo separa a queda da sobrevivência." },
+    { "type": "p", "text": "Um Curandeiro não existe apenas “para curar depois”. Ele age durante o perigo: sustenta o grupo, impede colapsos e mantém aliados lutando quando já deveriam ter caído." },
+
+    { "type": "h3", "text": "Valores Iniciais" },
+    { "type": "rules", "items": ["Vida: 4", "Fadiga: 4", "Defesa: 8"] },
+
+    { "type": "h3", "text": "Escolas de Magia" },
+    { "type": "rules", "items": ["Restauração"] },
+
+    { "type": "h3", "text": "Características de Classe" },
+    {
+      "type": "rules",
+      "items": [
+        "**Mão Cuidadosa:** Sempre que você usar uma magia de cura de toque, o aliado não pode receber condições negativas até o final do próximo turno dele.",
+        "**Reflexo Cuidador:** Quando um aliado em Distância Perto sofreria dano que o reduziria a 0 de Vida, você pode usar pontos de Fadiga para reduzir esse dano, na proporção de 2 pontos de Vida para cada 1 ponto de Fadiga gasto."
+      ]
+    }
+  ]
+}

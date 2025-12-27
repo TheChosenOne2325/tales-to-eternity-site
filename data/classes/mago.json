@@ -1,0 +1,29 @@
+{
+  "id": "mago",
+  "name": "Mago",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/classes/mago.webp",
+  "specializations": [
+    { "id": "devastador", "name": "Devastador" },
+    { "id": "condutor", "name": "Condutor" }
+  ],
+  "blocks": [
+    { "type": "p", "text": "Magos manipulam a magia em seu estado mais bruto. Eles puxam, distorcem e liberam energia arcana em feitiços poderosos e instáveis." },
+    { "type": "p", "text": "Um Mago caminha na linha entre controle e excesso. Cada conjuração é um risco calculado." },
+
+    { "type": "h3", "text": "Valores Iniciais" },
+    { "type": "rules", "items": ["Vida: 4", "Fadiga: 4", "Defesa: 7"] },
+
+    { "type": "h3", "text": "Escolas de Magia" },
+    { "type": "rules", "items": ["Elemental"] },
+
+    { "type": "h3", "text": "Características de Classe" },
+    {
+      "type": "rules",
+      "items": [
+        "**Canalização Instável:** Você pode adicionar 1d6 nas rolagens de acerto de ataques de magia, porém toma o resultado dessa rolagem como dano mágico em dobro.",
+        "**Absorção Arcana:** Sempre que você recebe dano mágico, você recebe +1 de Defesa até sofrer o próximo golpe."
+      ]
+    }
+  ]
+}

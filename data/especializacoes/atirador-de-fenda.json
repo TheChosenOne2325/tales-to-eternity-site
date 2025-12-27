@@ -1,0 +1,18 @@
+{
+  "id": "atirador-de-fenda",
+  "name": "Atirador de Fenda",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/especializacoes/atirador-de-fenda.webp",
+  "blocks": [
+    { "type": "p", "text": "Você controla o campo com tiros que empurram, interrompem e reposicionam. Onde outros veem distância, você vê ângulos — e transforma cada disparo em território." },
+    { "type": "h3", "text": "Atributo Mágico" },
+    { "type": "rules", "items": ["Agilidade"] },
+    { "type": "h3", "text": "Características por Tier" },
+    { "type": "rules", "items": [
+      "**Base — Tiro de Deslocamento:** Ao acertar um ataque com arco, você pode empurrar o alvo até 1 zona em qualquer direção lógica.",
+      "**Aperfeiçoamento — Área Sob Mira:** Como uma ação, escolha uma distância distante e visível. Inimigos que entrarem ou agirem nela recebem +1 de acerto em ataques contra eles.",
+      "**Avançado — Interrupção Precisa:** 1 vez por rodada, quando um inimigo na sua linha de visão realiza um movimento, você pode reagir com um ataque à distância com sua arma.",
+      "**Supremo — Domínio do Campo:** Enquanto você estiver em posição elevada ou em cobertura parcial, inimigos a alcance distante sofrem −2 em testes de ataque."
+    ] }
+  ]
+}

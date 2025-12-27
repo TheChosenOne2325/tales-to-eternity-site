@@ -1,0 +1,18 @@
+{
+  "id": "predador",
+  "name": "Predador",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/especializacoes/predador.webp",
+  "blocks": [
+    { "type": "p", "text": "Você transforma o combate em caça. Observa, espera e ataca no instante exato — e, quando escolhe uma presa, raramente a deixa escapar." },
+    { "type": "h3", "text": "Atributo Mágico" },
+    { "type": "rules", "items": ["Agilidade"] },
+    { "type": "h3", "text": "Características por Tier" },
+    { "type": "rules", "items": [
+      "**Base — Marca da Presa:** Escolha um inimigo visível. Ele se torna sua Presa. Enquanto estiver marcada, seus ataques contra ela causam +2 de dano.",
+      "**Aperfeiçoamento — Pressão Constante:** Enquanto sua Presa estiver marcada, você recebe +1 nas rolagens de ataque contra ela com armas à distância. Ao usar 1 ponto de Fadiga, esse bônus é dobrado para +2 no ataque.",
+      "**Avançado — Golpe Vulnerável:** Enquanto sua Presa estiver marcada, ela sofre −1 de Defesa contra seus ataques à distância.",
+      "**Supremo — Execução Calculada:** Seus ataques à distância contra sua Presa causam 1d10 de dano direto adicional."
+    ] }
+  ]
+}

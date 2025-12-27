@@ -1,0 +1,18 @@
+{
+  "id": "quebra-linhas",
+  "name": "Quebra-Linhas",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/especializacoes/quebra-linhas.webp",
+  "blocks": [
+    { "type": "p", "text": "Você abre caminho com impacto. Onde há escudo e formação, você cria espaço — golpeando defesas até elas cederem." },
+    { "type": "h3", "text": "Atributo Mágico" },
+    { "type": "rules", "items": ["Poder"] },
+    { "type": "h3", "text": "Características por Tier" },
+    { "type": "rules", "items": [
+      "**Base — Empunhadura Brutal:** Você pode empunhar armas de duas mãos como se fossem de uma mão. Seus ataques com armas de uma mão causam +1 de dano.",
+      "**Aperfeiçoamento — Golpe Demolidor:** Ao acertar um ataque com arma de duas mãos, o alvo rola um teste (6). Se falhar, recebe −1 em testes de ataque no próximo turno dele.",
+      "**Avançado — Quebra de Defesa:** Seus ataques com armas de duas mãos ignoram 1 ponto de Defesa do alvo.",
+      "**Supremo — Impacto Irrefreável:** Quando você acerta um ataque com arma de duas mãos, você pode escolher causar +3 de dano ou deixá-lo impedido de se mover pelo próximo turno dele."
+    ] }
+  ]
+}

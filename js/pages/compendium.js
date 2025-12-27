@@ -35,6 +35,7 @@ export async function openCompendium(compendiumId) {
   // clique -> detalhes
   content.querySelectorAll(".row.item").forEach(row => {
     row.addEventListener("click", async () => {
+
       const id = row.dataset.id;
       const indexItem = data.items.find(x => x.id === id);
 if (!indexItem) return;
@@ -63,6 +64,7 @@ const renderBlocks = (blocks = []) => blocks.map(b => {
 
 const isClass = compendiumId === "classes"; // como já está
 const specs = Array.isArray(item.specializations) ? item.specializations : [];
+const specsSorted = specs.slice().sort((a,b)=>a.name.localeCompare(b.name,"pt-BR"));
 const hasImage = !!item.img;
 
 details.innerHTML = `
@@ -88,15 +90,11 @@ ${(hasImage || isClass) ? `
 
 ${isClass ? `
   <div class="tab-panel" data-panel="spec">
-    ${specs.length ? `
+    ${specsSorted.length ? `
       <div class="spec-list">
-        ${specs.map(s => `
-          <button class="spec-pill" data-spec="${s.id}">${s.name}</button>
-        `).join("")}
+        ${specsSorted.map(s => `<button class="spec-pill" data-spec="${s.id}">${s.name}</button>`).join("")}
       </div>
-      <div class="spec-preview">
-        <p>Clique em uma especialização.</p>
-      </div>
+      <div class="spec-preview"><p>Clique em uma especialização.</p></div>
     ` : `<p>Sem especializações cadastradas.</p>`}
   </div>
 ` : ""}
@@ -107,7 +105,52 @@ ${isClass ? `
       </div>
     ` : ""}
   </div>
-`;
+`
+if (isClass) {
+  const preview = details.querySelector(".spec-preview");
+
+  details.querySelectorAll(".spec-pill").forEach(btn => {
+    btn.addEventListener("click", async () => {
+      const specId = btn.dataset.spec;
+
+      details.querySelectorAll(".spec-pill").forEach(b =>
+        b.classList.toggle("active", b === btn)
+      );
+
+      preview.innerHTML = `<p>Carregando...</p>`;
+
+      const url = `data/especializacoes/${specId}.json`;
+      const res = await fetch(url);
+      if (!res.ok) {
+        preview.innerHTML = `<p>Não achei: ${url}</p>`;
+        return;
+      }
+      const spec = await res.json();
+
+      const renderInline = (s) =>
+        String(s ?? "").replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+
+      const renderBlocks = (blocks = []) => blocks.map(b => {
+        if (b.type === "h2") return `<h2>${renderInline(b.text)}</h2>`;
+        if (b.type === "h3") return `<h3>${renderInline(b.text)}</h3>`;
+        if (b.type === "rules") {
+          const items = Array.isArray(b.items) ? b.items : [];
+          return `<div class="rules-box"><ul>${items.map(i => `<li>${renderInline(i)}</li>`).join("")}</ul></div>`;
+        }
+        if (b.text) return `<p>${renderInline(b.text)}</p>`;
+        return "";
+      }).join("");
+
+      preview.innerHTML = `
+        <h3>${spec.name}</h3>
+        ${renderBlocks(spec.blocks || [])}
+      ${spec.img ? `
+  <img class="compendium-img" src="${spec.img}" alt="${spec.name}">
+` : ""}
+      `;
+    });
+  });
+};
 details.querySelectorAll(".tab-btn").forEach(btn => {
   btn.addEventListener("click", () => {
     const tab = btn.dataset.tab;

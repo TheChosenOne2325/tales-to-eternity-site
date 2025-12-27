@@ -267,10 +267,14 @@ li:hover {
 
 .tab-panel.active {
   display: block;
+  
 }
-.spec-list { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
-.spec-pill {
-  background: #1c2f4a; color: #fff; border: 1px solid rgba(255,255,255,.15);
-  padding: 6px 10px; border-radius: 8px; cursor: pointer;
-}
-.spec-pill:hover { opacity: .9; }
+.spec-list { display:flex; gap:8px; flex-wrap:wrap; margin:12px 0; }
+.spec-pill { background:#1c2f4a; color:#fff; border:1px solid rgba(255,255,255,.15); padding:6px 10px; border-radius:8px; cursor:pointer; }
+.spec-pill.active { outline:1px solid rgba(255,255,255,.25); }
+
+.spec-img-wrap { display:none; margin-top:12px; }
+.spec-img-wrap.open { display:block; }
+.spec-img { width:100%; max-width:520px; border-radius:10px; }
+
+.spec-img-toggle{ margin-top:10px; padding:6px 10px; border-radius:8px; cursor:pointer; border:1px solid rgba(255,255,255,.15); background:#1c2f4a; color:#fff; }
