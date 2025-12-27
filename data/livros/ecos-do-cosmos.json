@@ -1,0 +1,41 @@
+{
+  "id": "ecos-do-cosmos",
+  "title": "Ecos do Cosmos",
+  "cover": "assets/imagens/livros/ecos-do-cosmos.webp",
+  "intro": [
+    "Ecos do Cosmos é o Livro do Jogador de Tales To Eternity e o ponto de partida ideal para quem deseja conhecer o sistema e começar a jogar.",
+    "Este livro reúne tudo o que você precisa para compreender os fundamentos do jogo, desde a criação de personagens até as regras essenciais que sustentam a experiência.",
+    "Ao longo destas páginas, você encontrará orientações sobre atributos e habilidades, regras básicas de magia, exploração, cenas narrativas, combate e outros conceitos fundamentais.",
+    "Embora tanto jogadores quanto mestres possam — e devam — ler este conteúdo, Tales To Eternity conta com outros dois livros principais, voltados especialmente para quem conduz a história.",
+    "Os jogadores devem conhecer bem Ecos do Cosmos. Os mestres, com o tempo, dominarão os três livros — mas, por enquanto, este é o seu começo."
+  ],
+  "chapters": [
+    {
+      "id": "0-introducao",
+      "title": "Capítulo 0 — Introdução",
+      "file": "data/livros/ecos-do-cosmos/chapters/0-introducao.json" 
+    },
+    {
+  "id": "1-dados-e-mecanicas",
+  "title": "Capítulo 1 — Dados e Mecânicas",
+  "file": "data/livros/ecos-do-cosmos/chapters/1-dados-e-mecanicas.json"
+},
+{
+  "id": "2-criacao-do-personagem",
+  "title": "Capítulo 2 — Criação do Personagem",
+  "file": "data/livros/ecos-do-cosmos/chapters/2-criacao-do-personagem.json"
+},
+{
+  "id": "3-racas",
+  "title": "Capítulo 3 — Raças",
+  "file": "data/livros/ecos-do-cosmos/chapters/3-racas.json"
+},
+{
+  "id": "4-classes",
+  "title": "Capítulo 4 — Classes",
+  "file": "data/livros/ecos-do-cosmos/chapters/4-classes.json"
+}
+  ]
+  
+}
+

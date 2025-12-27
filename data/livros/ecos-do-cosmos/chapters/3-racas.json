@@ -1,0 +1,27 @@
+{
+  "id": "3-racas",
+  "title": "Capítulo 3 — Raças",
+  "blocks": [
+    { "type": "h2", "text": "Raça e Narrativa" },
+
+    {
+      "type": "p",
+      "text": "Em Tales To Eternity, as raças existem antes de tudo como elementos narrativos do mundo. Elas representam culturas, histórias, conflitos, tradições e diferentes formas de enxergar a existência."
+    },
+    {
+      "type": "p",
+      "text": "Uma raça não define o destino de um personagem. Ela oferece um ponto de partida — costumes, valores comuns e expectativas sociais — mas cada indivíduo é único. Essas variações fazem parte da narrativa e devem sempre ser construídas em conjunto entre jogador e Narrador, respeitando o tom e o mundo da campanha."
+    },
+    {
+      "type": "p",
+      "text": "Em Tales To Eternity, todos os povos se comunicam por meio de uma língua comum, seja por meios naturais, culturais ou mágicos. Ainda assim, idiomas regionais ou raciais podem existir, caso o grupo deseje aprofundar o cenário."
+    },
+
+    { "type": "h2", "text": "Lista de Raças" },
+
+    {
+      "type": "p",
+      "text": "A lista completa de raças jogáveis, com suas características e descrições, está disponível no [Compendium de Raças](compendium:racas)."
+    }
+  ]
+}

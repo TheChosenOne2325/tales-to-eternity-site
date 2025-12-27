@@ -1,0 +1,28 @@
+{
+  "id": "0-introducao",
+  "title": "Capítulo 0 — Introdução",
+  "blocks": [
+    { "type": "h2", "text": "O que é RPG?" },
+
+    { "type": "p", "text": "RPG é a sigla para Role-Playing Game, ou jogo de interpretação de papéis. Em um RPG, você assume o papel de um personagem fictício inserido em um mundo imaginário, vivendo histórias construídas coletivamente. Cada jogador controla um personagem, enquanto todos colaboram para criar a narrativa que se desenrola à mesa." },
+    { "type": "p", "text": "Diferente de jogos tradicionais, o RPG não segue um roteiro fechado ou caminhos predeterminados. A história nasce das escolhas dos jogadores, das situações apresentadas pelo mestre e das consequências que surgem a partir dessas decisões. A principal ferramenta do jogo é a imaginação: você descreve o que seu personagem faz, como reage aos desafios e de que forma interage com o mundo e com os outros personagens." },
+    { "type": "p", "text": "Imagine, por exemplo, que o grupo encontra uma ponte antiga, parcialmente destruída, suspensa sobre um abismo profundo. Um personagem pode tentar escalar pelas pedras abaixo da ponte em busca de um caminho seguro. Outro pode conjurar uma magia para criar uma passagem temporária. Talvez alguém decida procurar um desvio pela floresta ou negociar ajuda com moradores próximos. Nenhuma dessas escolhas é “certa” ou “errada”. Cada decisão abre novas possibilidades, envolve riscos diferentes e cria histórias únicas." },
+    { "type": "p", "text": "As regras existem para apoiar a narrativa, dar estrutura às decisões e resolver conflitos — nunca para limitar a criatividade. Em Tales To Eternity, você é convidado a viver histórias marcadas por escolhas significativas, consequências reais e ampla liberdade narrativa. Aqui, suas decisões realmente importam." },
+
+    { "type": "h2", "text": "Qual é o Papel do Jogador?" },
+
+    { "type": "p", "text": "O jogador é responsável por criar e interpretar um personagem. Isso envolve decidir como ele pensa, sente, age e evolui ao longo da campanha. Você escolhe quais caminhos seguir, em quem confiar, o que valorizar e como reagir diante dos acontecimentos do mundo." },
+    { "type": "p", "text": "Durante o jogo, o jogador toma decisões significativas, define a personalidade e as motivações do personagem, utiliza habilidades e recursos para superar desafios, coopera com o grupo e ajuda a construir a história junto com o mestre. Em uma negociação, por exemplo, você pode agir com diplomacia, tentar intimidar um inimigo ou recuar para evitar um conflito maior. Cada escolha influencia o rumo da narrativa, alterando alianças, perigos e oportunidades futuras." },
+    { "type": "p", "text": "O mestre apresenta o mundo, interpreta personagens não jogáveis, descreve eventos e aplica as regras quando necessário. Ele cria desafios, propõe conflitos e conduz a história — mas é importante lembrar: o mestre não é um adversário dos jogadores. Ele é um parceiro na criação da narrativa. Um bom mestre adapta a história às decisões do grupo, respeita a agência dos jogadores e usa as regras como ferramentas para tornar a experiência mais envolvente, justa e emocionante." },
+
+    { "type": "h2", "text": "O Que Você Precisa Para Jogar?" },
+
+    { "type": "p", "text": "Tales To Eternity foi projetado para funcionar inteiramente dentro do FoundryVTT, uma plataforma digital de RPG. O sistema cuida de praticamente todos os aspectos técnicos do jogo: rolagens de dados, fichas de personagem, cálculos automáticos, magias, combate, distâncias, posicionamento e registro de cenas." },
+    { "type": "p", "text": "Você não precisa de ficha física, papel, borracha ou pilhas de dados. Ainda assim, se preferir, nada impede que utilize dados reais para sentir o peso de cada rolagem e decisão. Para jogar, tudo o que você realmente precisa é do FoundryVTT, do sistema Tales To Eternity instalado e da vontade de viver boas histórias." },
+
+    { "type": "h2", "text": "O Tom e o Estilo Do Jogo" },
+
+    { "type": "p", "text": "Tales To Eternity é um sistema de fantasia medieval com forte foco narrativo. O mundo é vasto, mágico e vivo, repleto de histórias esperando para serem descobertas. As escolhas têm peso, os caminhos se ramificam e as consequências moldam o futuro da narrativa." },
+    { "type": "p", "text": "Este livro parte de um cenário clássico de fantasia como base, mas o sistema foi criado para crescer e se transformar. Expansões futuras podem explorar novos temas, estilos e atmosferas de jogo. Você pode viver histórias heroicas, trágicas, sombrias, aventureiras, leves ou épicas. O tom final da campanha sempre será definido pelo grupo." }
+  ]
+}

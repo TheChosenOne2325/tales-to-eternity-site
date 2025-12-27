@@ -1,0 +1,106 @@
+{
+  "id": "2-criacao-do-personagem",
+  "title": "Capítulo 2 — Criação do Personagem",
+  "blocks": [
+    { "type": "h2", "text": "Atributos" },
+    { "type": "p", "text": "Todo personagem em Tales To Eternity é definido por seis atributos, que representam suas capacidades físicas, mentais, sociais e espirituais. Esses atributos influenciam praticamente tudo no jogo: testes de ação, ataques, magias, efeitos especiais e até valores essenciais como Vida e Fadiga Arcana." },
+    { "type": "p", "text": "Poder representa força física bruta — o quanto o personagem consegue erguer, empurrar, quebrar ou golpear com intensidade. Arrombar uma porta, levantar uma viga caída ou empurrar um inimigo para longe são situações em que o Poder costuma ser decisivo." },
+    { "type": "p", "text": "Agilidade mede reflexos, velocidade e coordenação. É fundamental para esquivas, precisão e movimentos rápidos. Saltar sobre um terreno estreito, acertar um disparo difícil com arco ou escapar de uma armadilha repentina são bons exemplos." },
+    { "type": "p", "text": "Vigor expressa resistência física e saúde. Determina a capacidade de suportar dor, doenças, venenos e esforço prolongado. Marchar por horas sem parar, resistir a um veneno ou continuar lutando mesmo ferido normalmente envolve Vigor." },
+    { "type": "p", "text": "Saber está ligado a conhecimento, raciocínio e memória — o entendimento do mundo, de criaturas, histórias e mistérios. Decifrar runas antigas, lembrar um detalhe crucial de uma lenda ou identificar fraquezas de uma criatura são usos típicos." },
+    { "type": "p", "text": "Essência simboliza força interior e conexão mágica, espiritual ou mística, definindo como o personagem canaliza as energias da Eternidade. Conjurações exigentes, rituais e resistir a influências sobrenaturais podem envolver Essência." },
+    { "type": "p", "text": "Presença representa carisma e impacto social: liderança, empatia, intimidação e influência. Convencer um guarda a liberar passagem, inspirar um aliado ou intimidar um criminoso são exemplos claros." },
+
+    {
+      "type": "note",
+      "title": "Distribuição inicial",
+      "text": "Durante a criação do personagem, você distribui os valores +2, +1, +1, 0, 0 e -1 entre os seis atributos, escolhendo livremente onde cada um será aplicado. Isso define os pontos fortes e fracos iniciais do personagem."
+    },
+
+    { "type": "p", "text": "Com a evolução ao longo do jogo, é possível melhorar atributos, mas o valor máximo “normal” de um atributo é +6. Em situações específicas, efeitos temporários — como magias, itens ou condições especiais — podem elevar um atributo além desse limite por um período limitado, desde que uma regra permita." },
+
+    { "type": "h2", "text": "Aspectos" },
+    { "type": "p", "text": "Aspectos são palavras, traços ou frases curtas que descrevem no que o personagem é especialmente bom, como ele costuma agir ou o que marca sua identidade. Eles funcionam como uma ponte direta entre narrativa e mecânica, reforçando a personalidade do personagem dentro do jogo." },
+    { "type": "p", "text": "Um Aspecto pode representar um talento, um hábito, uma origem ou até uma crença. Exemplos incluem: “Sutil como um sussurro”, “Caçador experiente”, “Curioso demais para o próprio bem”, “Disciplina de ferro” ou “Devoto da Chama Eterna”. Na prática, um Aspecto serve para dizer: “em situações assim, meu personagem tem vantagem porque isso faz parte de quem ele é.”" },
+    { "type": "p", "text": "Sempre que um Aspecto se aplica claramente a uma ação, o jogador pode somar o modificador desse Aspecto à rolagem relevante, normalmente junto ao atributo adequado, usando o bom senso." },
+
+    {
+      "type": "note",
+      "title": "Aspectos iniciais",
+      "text": "Um personagem começa com dois Aspectos, cada um com valor +1."
+    },
+
+    { "type": "p", "text": "Por exemplo, um personagem com o Aspecto “Nascido nas ruas” pode somar esse bônus ao tentar encontrar informações em becos e tavernas, negociar com criminosos ou se mover discretamente em ambientes urbanos." },
+    { "type": "p", "text": "Em situações especiais, mais de um Aspecto pode ser aplicado à mesma rolagem, desde que todos sejam claramente relevantes e o Narrador concorde. Aspectos não são imutáveis: eles podem mudar ao longo da história de forma narrativa, sempre em acordo com o Narrador." },
+
+    { "type": "h2", "text": "Vida" },
+    { "type": "p", "text": "A Vida representa o quanto um personagem consegue continuar agindo antes de cair inconsciente ou morrer. Ela é calculada pela fórmula:" },
+
+    {
+      "type": "note",
+      "title": "Fórmula",
+      "text": "Vida Total = (Vida da Classe × Nível) + Vigor"
+    },
+
+    { "type": "p", "text": "Quando um personagem sofre dano, esse valor é subtraído de sua Vida atual. Enquanto tiver 1 ponto ou mais, ele permanece consciente e capaz de agir, a menos que uma regra específica diga o contrário." },
+    { "type": "p", "text": "Ao chegar a 0 pontos de Vida, o personagem desmaia e fica incapacitado, precisando ser estabilizado ou recuperar Vida de alguma forma. Caso continue sofrendo dano enquanto estiver em 0, sua Vida pode assumir valores negativos." },
+    { "type": "p", "text": "Se a Vida de um personagem se tornar negativa e o valor absoluto desses pontos for igual ou maior que metade da Vida Total, o personagem morre." },
+    { "type": "p", "text": "Exemplo: um personagem com Vida Total 20 morre ao atingir -10 ou menos." },
+
+    { "type": "h2", "text": "Fadiga Arcana" },
+    { "type": "p", "text": "A Fadiga Arcana representa o quanto de magia o personagem consegue canalizar antes de esgotar suas forças. Ela é calculada assim:" },
+
+    {
+      "type": "note",
+      "title": "Fórmula",
+      "text": "Fadiga Máxima = (Fadiga da Classe × Nível) + Essência"
+    },
+
+    { "type": "p", "text": "Diferente da Vida, a Fadiga aumenta conforme você conjura magias, em vez de diminuir. Em condições normais, não há penalidade por ter Fadiga alta — porém, ao atingir sua Fadiga Máxima, o personagem não pode conjurar novas magias até que sua Fadiga diminua o suficiente para permitir novas conjurações." },
+
+    { "type": "h2", "text": "Nível" },
+    { "type": "p", "text": "O Nível mede a experiência e o crescimento do personagem dentro do mundo de Tales To Eternity. O sistema vai do nível 1 ao 12, dividido em quatro Tiers. Conforme o nível aumenta, o personagem se torna mais forte e versátil, sempre de acordo com suas escolhas de classe, atributos e magias." },
+    { "type": "p", "text": "Sempre que o personagem alcança um novo Tier (nos níveis 4, 7 e 10):" },
+
+    {
+      "type": "rules",
+      "items": [
+        "A marcação de atributos é resetada;",
+        "O personagem pode criar um novo Aspecto com valor +1;",
+        "E aprende uma nova magia."
+      ]
+    },
+    {"type": "p", "text": "Ao alcançar um novo nível (incluindo o nível 1), você escolhe um dos benefícios de [Evolução](compendium:evolucoes)."},
+
+
+    { "type": "h2", "text": "Experiência" },
+    { "type": "p", "text": "A Experiência (EXP) mede o progresso do personagem em direção ao próximo nível. Para subir de nível, é necessário acumular uma quantidade de EXP igual ao nível alvo × 10." },
+    {
+      "type": "rules",
+      "items": [
+        "Para avançar do nível 1 para o nível 2: 20 EXP",
+        "Do nível 2 para o nível 3: 30 EXP"
+      ]
+    },
+    { "type": "p", "text": "Quando o personagem atinge ou ultrapasse esse valor, ele sobe de nível." },
+    { "type": "p", "text": "Ao subir de nível, a experiência excedente não é perdida: qualquer EXP que ultrapasse o necessário é carregada para o próximo nível." },
+    { "type": "p", "text": "Exemplo: se você precisava de 20 EXP, tinha 18 e ganhou mais 3, sobe de nível usando 2 pontos e mantém 1 ponto como progresso acumulado." },
+
+    { "type": "h2", "text": "Personalidade" },
+    { "type": "p", "text": "A Personalidade funciona como um guia narrativo para interpretar o personagem. Ela não é representada por números, mas por palavras, ideias e traços de comportamento que ajudam a definir como o personagem pensa, sente e reage ao mundo." },
+    { "type": "p", "text": "Medos, valores, vícios, orgulho, convicções e objetivos fazem parte dessa construção. Além de enriquecer a interpretação, a personalidade também ajuda o Narrador a criar conflitos, escolhas difíceis e oportunidades reais de crescimento." },
+    { "type": "p", "text": "Exemplo: um personagem com medo de afogamento pode hesitar diante de um rio perigoso, mesmo que seja capaz de atravessá-lo." },
+
+    { "type": "h2", "text": "Passo a Passo da Criação dos Personagens" },
+    {
+  "type": "olist",
+  "items": [
+    "Comece com uma ideia geral: quem seu personagem é, de onde veio e qual é o seu estilo. Exemplos: “um arqueiro nômade que caça monstros para pagar uma dívida antiga” ou “uma curandeira devota que busca sinais da Eternidade em ruínas esquecidas”.",
+    "Escolha uma raça, uma classe e uma especialização da classe que combinem com esse conceito e anote seus benefícios iniciais.",
+    "Distribua os atributos (+2, +1, +1, 0, 0, -1) e calcule sua Vida e Fadiga para definir a base mecânica do personagem.",
+    "Defina seus Aspectos iniciais e escolha suas magias e equipamentos conforme as regras da classe.",
+    "Descreva a Personalidade e escreva um breve histórico: origem, eventos marcantes, motivações e aparência. Exemplos: “perdeu o mentor em um ritual quebrado” ou “carrega uma cicatriz que brilha quando magia está próxima”."
+  ]
+}
+  ]
+}

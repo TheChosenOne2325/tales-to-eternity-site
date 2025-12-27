@@ -1,0 +1,45 @@
+{
+  "id": "1-dados-e-mecanicas",
+  "title": "Capítulo 1 — Dados e Mecânicas",
+  "blocks": [
+    { "type": "h2", "text": "Os Dados Do Sistema" },
+    { "type": "p", "text": "O dado principal de Tales To Eternity é o d12. Ele é utilizado na maioria das rolagens importantes e testes do jogo, funcionando como o verdadeiro coração das ações dos personagens. É por meio do d12 que o sistema determina sucesso, falha, grau de dificuldade e, sobretudo, cria espaço para interpretação narrativa." },
+    { "type": "p", "text": "Outros dados aparecem em situações específicas, como no uso de magias, no cálculo de dano, em habilidades de classe, efeitos de itens ou regras especiais. Entre eles estão o d4, d6, d8, d10 e, em casos pontuais, o d20. Esses usos são sempre apresentados de forma contextualizada nos capítulos correspondentes, evitando ambiguidades ou consultas constantes." },
+    { "type": "p", "text": "A quantidade de dados necessária foi pensada para ser intencionalmente pequena — no máximo quatro de cada tipo. Isso permite que o jogo funcione de maneira confortável tanto em mesas físicas quanto no FoundryVTT, sem exigir grandes coleções de dados ou preparação excessiva." },
+    { "type": "p", "text": "Sempre que um efeito pedir uma rolagem, a notação utilizada será XdY, onde X indica a quantidade de dados rolados e Y o tipo de dado utilizado. Por exemplo, 3d6 significa rolar três dados de seis faces e somar os resultados." },
+
+    { "type": "h2", "text": "Vantagem e Desvantagem" },
+    { "type": "p", "text": "Vantagem e desvantagem representam circunstâncias especialmente favoráveis ou desfavoráveis para a ação de um personagem. Elas refletem fatores narrativos como preparo, posicionamento, terreno, ajuda externa, pressão emocional, ferimentos, clima ou qualquer outro elemento relevante da cena." },
+    { "type": "p", "text": "Quando um personagem possui vantagem, ele rola 1d6 adicional e soma esse valor ao resultado final do seu d12. Quando possui desvantagem, ele rola 1d6 e subtrai esse valor do resultado final." },
+    { "type": "p", "text": "Por exemplo, um personagem tentando arrombar uma porta com as ferramentas adequadas, tempo suficiente e um ambiente controlado pode receber vantagem. Já tentar a mesma ação enquanto está ferido, sob chuva intensa ou sendo perseguido pode impor desvantagem." },
+    { "type": "p", "text": "Algumas diretrizes mantêm o equilíbrio do sistema:" },
+{
+  "type": "rules",
+  "items": [
+    "Vantagens não se acumulam. Mesmo que o personagem tenha várias fontes favoráveis, ele rola apenas 1d6.",
+    "O mesmo vale para desvantagens.",
+    "Um único efeito de vantagem cancela qualquer quantidade de desvantagens, e o inverso também é verdadeiro."
+  ]
+},
+
+
+    { "type": "h2", "text": "Resultado Crítico" },
+    { "type": "p", "text": "Existem dois valores especiais no d12 que sempre geram efeitos marcantes na narrativa." },
+    { "type": "p", "text": "Um resultado 12 é considerado um Sucesso Crítico. Ele sempre garante sucesso, mesmo que o valor final não alcance a dificuldade definida. Além disso, esse sucesso tende a ser mais forte, mais eficiente ou especialmente impressionante, criando um momento memorável na história. Um ataque pode causar um efeito adicional, um inimigo pode ser desarmado ou uma situação pode mudar drasticamente a favor do grupo." },
+    { "type": "p", "text": "Um resultado 1 é uma Falha Crítica. Ele sempre resulta em falha, independentemente de modificadores ou da dificuldade da ação. Normalmente, isso traz consequências mais severas, complica a situação ou provoca uma reviravolta inesperada. Um golpe errado pode deixar o personagem exposto, uma tentativa social pode gerar desconfiança imediata, ou uma ação simples pode desencadear novos problemas." },
+
+    { "type": "h2", "text": "Dificuldade" },
+    { "type": "p", "text": "A dificuldade representa o quão desafiadora é uma ação. Ela pode ser aplicada a qualquer tentativa relevante: saltar um obstáculo, escalar uma superfície, persuadir alguém, conjurar uma magia complexa ou executar um movimento arriscado em combate." },
+    { "type": "p", "text": "Sempre que o resultado de uma ação é incerto, o Narrador define uma dificuldade adequada à situação. O jogador rola o d12, aplica os modificadores relevantes e compara o resultado final com esse valor. Se o resultado for igual ou maior que a dificuldade, a ação é bem-sucedida. Se for menor, a ação falha." },
+    { "type": "p", "text": "A dificuldade deve sempre refletir o bom senso narrativo. Empurrar uma porta simples exige pouco esforço; mover um bloco de pedra demanda força considerável. Saltar um buraco estreito é menos arriscado do que escalar um penhasco escorregadio sob chuva. Ações claramente impossíveis devem ser evitadas, a menos que a narrativa deixe evidente que aquela tentativa não deveria funcionar." },
+    { "type": "p", "text": "Como Tales To Eternity é um sistema fortemente narrativo, o resultado de uma rolagem não se limita a “passou” ou “falhou”. Falhar não significa, necessariamente, um desastre absoluto, assim como ter sucesso não implica perfeição total." },
+    { "type": "p", "text": "Por exemplo, se a dificuldade para escalar um muro é 7, um resultado 6 pode indicar que o personagem não alcança o topo, mas consegue se segurar na borda, ficando pendurado e criando uma nova situação. Um resultado muito mais baixo pode representar uma queda, um ferimento ou chamar atenção indesejada." },
+
+    { "type": "h2", "text": "Regras Específicas" },
+    { "type": "p", "text": "As regras apresentadas neste capítulo são consideradas Regras Gerais e se aplicam a todo o sistema. No entanto, algumas habilidades, magias, efeitos ou itens introduzem Regras Específicas que modificam, ampliam ou substituem temporariamente essas normas." },
+    { "type": "p", "text": "Sempre que uma regra específica contradiz uma regra geral, a regra específica tem prioridade. Após a resolução de seu efeito, o jogo retorna normalmente às regras gerais." },
+
+    { "type": "h2", "text": "Arredondamento" },
+    { "type": "p", "text": "Sempre que for necessário arredondar qualquer valor em Tales To Eternity, arredonde para cima." }
+  ]
+}

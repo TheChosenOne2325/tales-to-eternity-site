@@ -1,0 +1,237 @@
+:root {
+  --blue-main: #0b2f57;
+  --blue-dark: #081f3a;
+  --gold: #d4af37;
+  --text: #eaeaea;
+}
+
+body {
+  margin: 0;
+  background: var(--blue-main);
+  color: var(--text);
+  font-family: Inter, system-ui, sans-serif;
+}
+
+aside {
+  background: var(--blue-dark);
+  border-right: 1px solid rgba(255,255,255,0.08);
+}
+
+#details {
+  border-left: 1px solid rgba(255,255,255,0.08);
+}
+
+h1, h2 {
+  color: var(--gold);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 6px;
+  cursor: pointer;
+}
+
+li:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+#content {
+  padding: 0;
+  overflow: auto; /* padrão: permite scroll */
+}
+
+
+#content::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../assets/imagens/tte-logot.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 420px;
+  opacity: 0.08;
+  pointer-events: none;
+}
+
+#content > * {
+  position: relative;
+  z-index: 1;
+}
+
+.home-link {
+  cursor: pointer;
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}
+
+.book-cover-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.book-cover-full {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  border-radius: 0;
+  box-shadow: none;
+}
+.book-node-header {
+  padding: 6px;
+  cursor: pointer;
+}
+
+.book-children {
+  padding-left: 14px;
+  margin: 6px 0 0;
+}
+
+.chapter-item {
+  padding: 6px;
+  opacity: 0.9;
+}
+
+.chapter-item:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+.chapter {
+  padding: 18px;
+}
+
+.toc {
+  padding-left: 14px;
+}
+
+.toc li {
+  cursor: pointer;
+  padding: 4px 0;
+  opacity: 0.9;
+}
+
+.toc li:hover {
+  text-decoration: underline;
+}
+.chapter {
+  max-width: 780px;
+  margin: 0 auto;
+  line-height: 1.65;
+}
+
+.chapter h2 {
+  margin-top: 32px;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+  padding-bottom: 6px;
+}
+
+.chapter p {
+  margin: 12px 0;
+  opacity: 0.95;
+}
+
+.rule-lead {
+  margin-top: 16px;
+  font-weight: 600;
+  color: var(--gold);
+}
+.rules-box {
+  margin: 16px 0 24px;
+  padding: 14px 18px;
+  background: rgba(255,255,255,0.06);
+  border-left: 4px solid var(--gold);
+  border-radius: 6px;
+}
+
+.rules-box ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.rules-box li {
+  margin: 6px 0;
+  background: none !important;
+  cursor: auto;
+  line-height: 1.5;
+}
+.rules-box li:hover {
+  background: none !important;
+}
+.note-box {
+  margin: 16px 0 24px;
+  padding: 14px 16px;
+  background: rgba(255,255,255,0.06);
+  border-left: 4px solid var(--gold);
+  border-radius: 6px;
+}
+
+.note-title {
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--gold);
+}
+
+.note-text {
+  line-height: 1.55;
+  opacity: 0.95;
+}
+
+.olist {
+  padding-left: 22px;
+  margin: 12px 0 20px;
+}
+
+.olist li {
+  margin: 8px 0;
+   background: none !important;
+  cursor: auto;
+}
+
+.inline-link {
+  color: var(--gold);
+  text-decoration: underline;
+}
+
+.compendium { padding: 18px; }
+
+.compendium-table {
+  margin-top: 12px;
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.compendium-table .row {
+  display: grid;
+  grid-template-columns: 1fr 120px;
+}
+
+.compendium-table .row.head {
+  background: rgba(255,255,255,0.06);
+  font-weight: 700;
+}
+
+.compendium-table .cell {
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.compendium-table .row.item:hover {
+  background: rgba(255,255,255,0.06);
+  cursor: pointer;
+}
+.compendium-img {
+  display: block;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+   margin: 16px auto 0;
+  border-radius: 10%;
+  opacity: 0.95;
+}
