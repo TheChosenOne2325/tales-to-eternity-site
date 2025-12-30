@@ -1,0 +1,13 @@
+{
+  "id": "sal",
+  "name": "Sal",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/sal.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Mineral essencial para temperar e conservar alimentos."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "apito",
+  "name": "Apito",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/apito.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Instrumento sonoro para sinalização à distância."
+    }
+  ]
+}

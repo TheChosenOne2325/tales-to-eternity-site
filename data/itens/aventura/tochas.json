@@ -1,0 +1,13 @@
+{
+  "id": "tochas",
+  "name": "Tochas",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/tochas.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Fontes simples de luz feitas de madeira e material inflamável."
+    }
+  ]
+}

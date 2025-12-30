@@ -1,0 +1,13 @@
+{
+  "id": "faca-utilitaria",
+  "name": "Faca Utilitária",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/faca-utilitaria.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Lâmina simples para cortes gerais e tarefas básicas."
+    }
+  ]
+}

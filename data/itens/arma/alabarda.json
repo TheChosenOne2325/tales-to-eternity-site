@@ -1,0 +1,13 @@
+{
+  "id": "alabarda",
+  "name": "Alabarda (2 mãos)",
+  "category": "arma",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/arma/alabarda.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Arma de haste com lâmina e gancho, útil para atacar, puxar e manter distância."
+    }
+  ]
+}

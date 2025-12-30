@@ -1,0 +1,13 @@
+{
+  "id": "lanca",
+  "name": "Lança (2 mãos)",
+  "category": "arma",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/arma/lanca.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Alcance médio, eficiente para atacar e controlar espaço."
+    }
+  ]
+}

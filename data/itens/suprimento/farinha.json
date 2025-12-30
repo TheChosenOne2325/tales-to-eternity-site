@@ -1,0 +1,13 @@
+{
+  "id": "farinha",
+  "name": "Farinha",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/farinha.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Grãos moídos, base para pães e massas."
+    }
+  ]
+}

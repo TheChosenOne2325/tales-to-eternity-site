@@ -1,0 +1,7 @@
+{
+  "id": "meditar",
+  "name": "Meditar",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/descanso/meditar.webp",
+  "text": ["Permite recuperar Fadiga ao rolar 1d6 + Saber por hora, refletindo foco, oração, respiração controlada ou alinhamento espiritual."]
+}

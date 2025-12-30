@@ -1,0 +1,13 @@
+{
+  "id": "racoes",
+  "name": "Rações",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/racoes.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Porções de comida seca e preservada, feitas para durar longas viagens."
+    }
+  ]
+}

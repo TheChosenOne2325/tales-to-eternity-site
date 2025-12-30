@@ -1,0 +1,13 @@
+{
+  "id": "bau",
+  "name": "Baú",
+  "category": "conteiner",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/conteiner/bau.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Caixa grande e resistente para grandes quantidades de itens."
+    }
+  ]
+}

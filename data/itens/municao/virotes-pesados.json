@@ -1,0 +1,13 @@
+{
+  "id": "virotes-pesados",
+  "name": "Virotes Pesados",
+  "category": "municao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/municao/virotes-pesados.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Virotes reforçados para maior impacto."
+    }
+  ]
+}

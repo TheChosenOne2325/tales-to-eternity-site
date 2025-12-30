@@ -1,0 +1,13 @@
+{
+  "id": "rede",
+  "name": "Rede",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/rede.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Rede leve usada para descanso ou transporte improvisado."
+    }
+  ]
+}

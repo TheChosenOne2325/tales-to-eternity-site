@@ -1,0 +1,13 @@
+{
+  "id": "carne-seca",
+  "name": "Carne Seca",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/carne-seca.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Carne curada para durar mais tempo sem refrigeração."
+    }
+  ]
+}

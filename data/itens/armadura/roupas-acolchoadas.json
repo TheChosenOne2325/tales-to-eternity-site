@@ -1,0 +1,13 @@
+{
+  "id": "roupas-acolchoadas",
+  "name": "Roupas Acolchoadas",
+  "category": "armadura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/armadura/roupas-acolchoadas.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Camadas grossas de tecido costurado, oferecendo proteção básica contra impactos leves."
+    }
+  ]
+}

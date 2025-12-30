@@ -1,0 +1,13 @@
+{
+  "id": "martelo-leve",
+  "name": "Martelo Leve (1 mão)",
+  "category": "arma",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/arma/martelo-leve.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Mantém bom impacto com maior mobilidade."
+    }
+  ]
+}

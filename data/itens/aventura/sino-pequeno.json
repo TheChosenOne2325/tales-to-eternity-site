@@ -1,0 +1,13 @@
+{
+  "id": "sino-pequeno",
+  "name": "Sino Pequeno",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/sino-pequeno.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Objeto sonoro usado para alertas ou armadilhas simples."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "linguica",
+  "name": "Linguiça",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/linguica.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Carne temperada embutida, fácil de transportar e preparar."
+    }
+  ]
+}

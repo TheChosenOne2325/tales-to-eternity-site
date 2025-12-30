@@ -1,25 +1,33 @@
 export async function openCompendium(compendiumId) {
   const res = await fetch(`data/compendium/${compendiumId}.json`);
-  const data = await res.json();
+  const data = await res.json(); // ✅ FALTAVA ISSO
+
+  const getCell = (rowItem, col) => {
+    const c = String(col ?? "").toLowerCase();
+    if (c.includes("nome")) return rowItem.name ?? "";
+    if (c.includes("categoria")) return rowItem.category ?? "";
+    if (c.includes("livro")) return rowItem.book ?? "";
+    return "";
+  };
 
   const content = document.getElementById("content");
   const details = document.getElementById("details");
-
   // centro: lista
   content.classList.remove("is-cover");
   content.innerHTML = `
     <div class="compendium">
       <h1>${data.title}</h1>
-      <div class="compendium-table">
+      <div class="compendium-table" style="--cols:${data.columns.length}">
         <div class="row head">
           ${data.columns.map(c => `<div class="cell">${c}</div>`).join("")}
         </div>
-        ${data.items.map(item => `
-  <div class="row item" data-id="${item.id}">
-    <div class="cell">${item.name}</div>
-    <div class="cell">${item.book ?? ""}</div>
+
+${data.items.map(rowItem => `
+  <div class="row item" data-id="${rowItem.id}">
+    ${data.columns.map(col => `<div class="cell">${getCell(rowItem, col)}</div>`).join("")}
   </div>
 `).join("")}
+
 
       </div>
     </div>
@@ -35,12 +43,28 @@ export async function openCompendium(compendiumId) {
   // clique -> detalhes
   content.querySelectorAll(".row.item").forEach(row => {
     row.addEventListener("click", async () => {
-
       const id = row.dataset.id;
       const indexItem = data.items.find(x => x.id === id);
 if (!indexItem) return;
-const resItem = await fetch(`data/${compendiumId}/${id}.json`);
+let url = `data/${compendiumId}/${id}.json`;
+
+// CASO ESPECIAL: ITENS
+if (compendiumId === "itens") {
+  if (!indexItem.category) {
+    details.innerHTML = `<p>Item sem categoria no índice.</p>`;
+    return;
+  }
+  url = `data/itens/${indexItem.category}/${id}.json`;
+}
+
+const resItem = await fetch(url);
+if (!resItem.ok) {
+  details.innerHTML = `<p>Não achei: ${url}</p>`;
+  return;
+}
 const item = await resItem.json();
+ const inlineImgCompendiums = ["itens", "moedas", "evolucoes","descanso"];
+  const isInlineImg = inlineImgCompendiums.includes(compendiumId);
 
       const renderInline = (s) =>
   String(s ?? "").replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
@@ -75,7 +99,10 @@ ${(hasImage || isClass) ? `
   <div class="tabs">
     <button class="tab-btn active" data-tab="desc">Descrição</button>
     ${isClass ? `<button class="tab-btn" data-tab="spec">Especializações</button>` : ""}
-    ${hasImage ? `<button class="tab-btn" data-tab="img">Imagem</button>` : ""}
+    ${item.img && !isInlineImg
+  ? `<button class="tab-btn" data-tab="img">Imagem</button>`
+  : ""
+}
   </div>
 ` : ""}
 
@@ -86,6 +113,9 @@ ${(hasImage || isClass) ? `
           ? renderBlocks(item.blocks)
           : (item.text ?? []).map(p => `<p>${p}</p>`).join("")
       }
+      ${item.img && isInlineImg ? `
+  <img class="compendium-img" src="${item.img}" alt="${item.name}">
+` : ""}
     </div>
 
 ${isClass ? `
@@ -99,11 +129,12 @@ ${isClass ? `
   </div>
 ` : ""}
 
-    ${hasImage ? `
-      <div class="tab-panel" data-panel="img">
-        <img class="compendium-img" src="${item.img}" alt="${item.name}">
-      </div>
-    ` : ""}
+  ${item.img && !isInlineImg ? `
+  <div class="tab-panel" data-panel="img">
+    <img class="compendium-img" src="${item.img}" alt="${item.name}">
+  </div>
+` : ""}
+
   </div>
 `
 if (isClass) {

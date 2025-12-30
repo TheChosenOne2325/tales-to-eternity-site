@@ -1,0 +1,13 @@
+{
+  "id": "armadura-de-placas",
+  "name": "Armadura de Placas",
+  "category": "armadura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/armadura/armadura-de-placas.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Placas metálicas moldadas para o corpo, fornecendo alta proteção em combate direto."
+    }
+  ]
+}

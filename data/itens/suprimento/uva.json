@@ -1,0 +1,13 @@
+{
+  "id": "uva",
+  "name": "Uva",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/uva.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Fruta pequena e doce, consumida fresca ou seca."
+    }
+  ]
+}

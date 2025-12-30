@@ -1,0 +1,13 @@
+{
+  "id": "ovos",
+  "name": "Ovos",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/ovos.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Alimento simples e versátil, usado em diversas receitas."
+    }
+  ]
+}

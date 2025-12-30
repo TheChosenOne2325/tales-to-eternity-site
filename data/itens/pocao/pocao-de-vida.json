@@ -1,0 +1,13 @@
+{
+  "id": "pocao-de-vida",
+  "name": "Poção de Vida",
+  "category": "pocao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/pocao/pocao-de-vida.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Líquido vermelho ou brilhante que restaura vitalidade ao ser consumido."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "aljava",
+  "name": "Aljava",
+  "category": "conteiner",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/conteiner/aljava.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Contêiner alongado para flechas."
+    }
+  ]
+}

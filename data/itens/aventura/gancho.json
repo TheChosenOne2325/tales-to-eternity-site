@@ -1,0 +1,13 @@
+{
+  "id": "gancho",
+  "name": "Gancho",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/gancho.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Peça metálica usada com cordas para alcançar locais elevados."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "flechas-incendiarias",
+  "name": "Flechas Incendiárias",
+  "category": "municao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/municao/flechas-incendiarias.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Flechas adaptadas para carregar fogo."
+    }
+  ]
+}

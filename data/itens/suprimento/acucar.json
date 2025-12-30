@@ -1,0 +1,13 @@
+{
+  "id": "acucar",
+  "name": "Açúcar",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/acucar.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Ingrediente doce usado em bebidas e receitas."
+    }
+  ]
+}

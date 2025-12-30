@@ -1,0 +1,13 @@
+{
+  "id": "broquel",
+  "name": "Broquel",
+  "category": "escudo",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/escudo/broquel.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Pequeno escudo circular empunhado com uma mão, ideal para aparar golpes rápidos sem comprometer a mobilidade."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "saco-de-dormir",
+  "name": "Saco de Dormir",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/saco-de-dormir.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Item usado para descanso durante acampamentos."
+    }
+  ]
+}

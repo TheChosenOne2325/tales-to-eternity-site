@@ -1,0 +1,13 @@
+{
+  "id": "cota-laminar",
+  "name": "Cota Laminar",
+  "category": "armadura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/armadura/cota-laminar.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Lâminas metálicas sobrepostas e amarradas, oferecendo boa proteção sem comprometer totalmente o movimento."
+    }
+  ]
+}

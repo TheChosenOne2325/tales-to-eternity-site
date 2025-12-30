@@ -34,6 +34,21 @@
   "id": "4-classes",
   "title": "Capítulo 4 — Classes",
   "file": "data/livros/ecos-do-cosmos/chapters/4-classes.json"
+},
+{
+  "id": "5-itens-e-equipamentos",
+  "title": "Capítulo 5 — Itens e Equipamentos",
+  "file": "data/livros/ecos-do-cosmos/chapters/5-itens-e-equipamentos.json"
+},
+{
+  "id": "7-exploracao",
+  "title": "Capítulo 7 — Exploração",
+  "file": "data/livros/ecos-do-cosmos/chapters/7-exploracao.json"
+},
+{
+  "id": "8-combate",
+  "title": "Capítulo 8 — Combate",
+  "file": "data/livros/ecos-do-cosmos/chapters/8-combate.json"
 }
   ]
   

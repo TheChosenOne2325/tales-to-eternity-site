@@ -1,0 +1,13 @@
+{
+  "id": "flechas-de-caca",
+  "name": "Flechas de Caça",
+  "category": "municao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/municao/flechas-de-caca.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Flechas projetadas para abater animais e criaturas menores."
+    }
+  ]
+}

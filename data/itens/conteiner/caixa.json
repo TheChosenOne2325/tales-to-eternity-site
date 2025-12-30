@@ -1,0 +1,13 @@
+{
+  "id": "caixa",
+  "name": "Caixa",
+  "category": "conteiner",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/conteiner/caixa.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Recipiente rígido de madeira ou metal para armazenamento geral."
+    }
+  ]
+}

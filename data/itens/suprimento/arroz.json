@@ -1,0 +1,13 @@
+{
+  "id": "arroz",
+  "name": "Arroz",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/arroz.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Grãos simples e nutritivos, base alimentar comum em muitas regiões."
+    }
+  ]
+}

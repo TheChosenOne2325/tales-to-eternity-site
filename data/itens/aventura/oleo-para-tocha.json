@@ -1,0 +1,13 @@
+{
+  "id": "oleo-para-tocha",
+  "name": "Óleo para Tocha",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/oleo-para-tocha.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Líquido inflamável para manter fontes de luz acesas."
+    }
+  ]
+}

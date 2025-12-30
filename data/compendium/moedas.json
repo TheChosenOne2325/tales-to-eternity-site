@@ -1,0 +1,12 @@
+{
+  "id": "moedas",
+  "title": "Moedas",
+  "columns": ["Nome", "Livro"],
+  "items": [
+    { "id": "ferril", "name": "Ferril", "book": "EdC" },
+    { "id": "cravo", "name": "Cravo", "book": "EdC" },
+    { "id": "lumem", "name": "Lumem", "book": "EdC" },
+    { "id": "auris", "name": "Auris", "book": "EdC" },
+    { "id": "apex", "name": "Apex", "book": "EdC" }
+  ]
+}

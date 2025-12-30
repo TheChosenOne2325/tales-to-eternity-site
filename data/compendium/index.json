@@ -1,5 +1,8 @@
 [
   { "id": "evolucoes", "title": "Evoluções" },
   { "id": "racas", "title": "Raças" },
-  { "id": "classes", "title": "Classes" }
+  { "id": "classes", "title": "Classes" },
+  { "id": "moedas", "title": "Moedas" },
+  { "id": "itens", "title": "Itens" },
+  { "id": "descanso", "title": "Descanso" }
 ]

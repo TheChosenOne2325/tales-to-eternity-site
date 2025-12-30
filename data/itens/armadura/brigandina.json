@@ -1,0 +1,13 @@
+{
+  "id": "brigandina",
+  "name": "Brigandina",
+  "category": "armadura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/armadura/brigandina.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Casaco de tecido grosso com pequenas placas metálicas internas, equilibrando proteção e flexibilidade."
+    }
+  ]
+}

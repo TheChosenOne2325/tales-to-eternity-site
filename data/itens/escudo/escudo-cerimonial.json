@@ -1,0 +1,13 @@
+{
+  "id": "escudo-cerimonial",
+  "name": "Escudo Cerimonial",
+  "category": "escudo",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/escudo/escudo-cerimonial.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Ricamente decorado e pouco reforçado, feito mais para exibição do que para combate real."
+    }
+  ]
+}

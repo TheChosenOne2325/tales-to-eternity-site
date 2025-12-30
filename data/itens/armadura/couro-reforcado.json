@@ -1,0 +1,13 @@
+{
+  "id": "couro-reforcado",
+  "name": "Couro Reforçado",
+  "category": "armadura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/armadura/couro-reforcado.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Couro tratado e endurecido com reforços adicionais, comum entre combatentes que valorizam a mobilidade."
+    }
+  ]
+}

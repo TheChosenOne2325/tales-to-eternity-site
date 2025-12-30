@@ -1,0 +1,7 @@
+{
+  "id": "cuidar-das-feridas",
+  "name": "Cuidar das feridas",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/descanso/cuidar-das-feridas.webp",
+  "text": ["Permite recuperar Vida ao rolar 1d6 + Vigor por hora, representando bandagens, curativos ou primeiros socorros improvisados."]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "mangual",
+  "name": "Mangual (1 mão)",
+  "category": "arma",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/arma/mangual.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Imprevisível e difícil de defender, com dinâmica agressiva."
+    }
+  ]
+}

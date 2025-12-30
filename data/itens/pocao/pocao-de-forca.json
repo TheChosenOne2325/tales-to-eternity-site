@@ -1,0 +1,13 @@
+{
+  "id": "pocao-de-forca",
+  "name": "Poção de Força",
+  "category": "pocao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/pocao/pocao-de-forca.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Preparado denso que aumenta a potência física."
+    }
+  ]
+}

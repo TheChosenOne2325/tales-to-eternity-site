@@ -1,0 +1,13 @@
+{
+  "id": "pocao-de-resistencia",
+  "name": "Poção de Resistência",
+  "category": "pocao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/pocao/pocao-de-resistencia.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Líquido espesso que fortalece temporariamente o corpo."
+    }
+  ]
+}

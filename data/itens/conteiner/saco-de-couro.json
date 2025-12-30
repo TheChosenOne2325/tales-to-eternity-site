@@ -1,0 +1,13 @@
+{
+  "id": "saco-de-couro",
+  "name": "Saco de Couro",
+  "category": "conteiner",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/conteiner/saco-de-couro.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Bolsa simples para itens diversos."
+    }
+  ]
+}

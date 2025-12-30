@@ -1,0 +1,13 @@
+{
+  "id": "armadura-parcial-de-placas",
+  "name": "Armadura Parcial de Placas",
+  "category": "armadura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/armadura/armadura-parcial-de-placas.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Placas metálicas cobrindo áreas vitais, combinadas com partes mais leves para reduzir peso."
+    }
+  ]
+}

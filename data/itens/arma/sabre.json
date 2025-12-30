@@ -1,0 +1,13 @@
+{
+  "id": "sabre",
+  "name": "Sabre (1 mão)",
+  "category": "arma",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/arma/sabre.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Lâmina curva e leve, ideal para cortes rápidos e movimentos ágeis."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "tenda",
+  "name": "Tenda",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/tenda.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Abrigo portátil para acampamentos temporários."
+    }
+  ]
+}

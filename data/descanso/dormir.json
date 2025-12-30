@@ -1,0 +1,7 @@
+{
+  "id": "dormir",
+  "name": "Dormir",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/descanso/dormir.webp",
+  "text": [" Representa o descanso completo. Após pelo menos 6 horas, o personagem recupera metade da Vida Total e metade da Fadiga Total."]
+}

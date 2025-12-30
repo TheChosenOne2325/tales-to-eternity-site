@@ -1,0 +1,13 @@
+{
+  "id": "foice-de-guerra",
+  "name": "Foice de Guerra (2 mãos)",
+  "category": "arma",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/arma/foice-de-guerra.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Golpes amplos e mortais, adaptada do uso agrícola para o combate."
+    }
+  ]
+}

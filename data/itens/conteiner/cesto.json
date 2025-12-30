@@ -1,0 +1,13 @@
+{
+  "id": "cesto",
+  "name": "Cesto",
+  "category": "conteiner",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/conteiner/cesto.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Recipiente trançado para mercadorias leves."
+    }
+  ]
+}

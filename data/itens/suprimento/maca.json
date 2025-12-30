@@ -1,0 +1,13 @@
+{
+  "id": "maca",
+  "name": "Maçã",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/maca.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Fruta firme e levemente ácida, comum em viagens curtas."
+    }
+  ]
+}

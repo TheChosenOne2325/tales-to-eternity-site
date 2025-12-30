@@ -1,0 +1,13 @@
+{
+  "id": "cenoura",
+  "name": "Cenoura",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/cenoura.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Raiz crocante e levemente adocicada."
+    }
+  ]
+}

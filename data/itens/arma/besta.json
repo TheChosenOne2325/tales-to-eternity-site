@@ -1,0 +1,13 @@
+{
+  "id": "besta",
+  "name": "Besta (2 mãos)",
+  "category": "arma",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/arma/besta.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Poderosa e precisa, porém mais lenta para recarregar."
+    }
+  ]
+}

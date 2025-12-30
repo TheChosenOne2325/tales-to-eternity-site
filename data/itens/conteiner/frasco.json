@@ -1,0 +1,13 @@
+{
+  "id": "frasco",
+  "name": "Frasco",
+  "category": "conteiner",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/conteiner/frasco.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Recipiente pequeno para líquidos ou substâncias."
+    }
+  ]
+}

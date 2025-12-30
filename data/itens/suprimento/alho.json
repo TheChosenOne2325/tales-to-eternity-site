@@ -1,0 +1,13 @@
+{
+  "id": "alho",
+  "name": "Alho",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/alho.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Condimento forte usado para temperar alimentos."
+    }
+  ]
+}

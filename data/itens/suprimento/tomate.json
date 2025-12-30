@@ -1,0 +1,13 @@
+{
+  "id": "tomate",
+  "name": "Tomate",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/tomate.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Fruto suculento usado em molhos e pratos variados."
+    }
+  ]
+}

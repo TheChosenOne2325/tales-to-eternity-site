@@ -1,0 +1,13 @@
+{
+  "id": "arco-composto",
+  "name": "Arco Composto (2 mãos)",
+  "category": "arma",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/arma/arco-composto.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Construção avançada que combina potência, precisão e alcance superior."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "bussola",
+  "name": "Bússola",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/bussola.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Instrumento usado para orientação durante viagens."
+    }
+  ]
+}

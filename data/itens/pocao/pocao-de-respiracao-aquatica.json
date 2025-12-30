@@ -1,0 +1,13 @@
+{
+  "id": "pocao-de-respiracao-aquatica",
+  "name": "Poção de Respiração Aquática",
+  "category": "pocao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/pocao/pocao-de-respiracao-aquatica.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Líquido azulado que permite respirar debaixo d’água."
+    }
+  ]
+}

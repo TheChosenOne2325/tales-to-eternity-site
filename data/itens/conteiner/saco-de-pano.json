@@ -1,0 +1,13 @@
+{
+  "id": "saco-de-pano",
+  "name": "Saco de Pano",
+  "category": "conteiner",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/conteiner/saco-de-pano.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Saco leve para alimentos ou objetos simples."
+    }
+  ]
+}

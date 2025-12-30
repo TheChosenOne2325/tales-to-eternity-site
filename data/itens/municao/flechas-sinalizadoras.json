@@ -1,0 +1,13 @@
+{
+  "id": "flechas-sinalizadoras",
+  "name": "Flechas Sinalizadoras",
+  "category": "municao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/municao/flechas-sinalizadoras.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Flechas que emitem luz, fumaça ou som ao impacto."
+    }
+  ]
+}

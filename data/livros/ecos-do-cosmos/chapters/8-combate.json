@@ -1,0 +1,171 @@
+{
+  "id": "8-combate",
+  "title": "Capítulo 8 — Combate",
+  "blocks": [
+    { "type": "h2", "text": "Iniciativa e Surpresa" },
+    {
+      "type": "p",
+      "text": "A iniciativa define a ordem dos turnos durante um combate. Para determinar quem age primeiro, cada participante rola:"
+    },
+    {
+      "type": "rules",
+      "items": [
+    "Iniciativa = 1d12 + Agilidade"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Quem obtiver o maior resultado age primeiro, seguindo em ordem decrescente."
+    },
+    {
+      "type": "p",
+      "text": "Em caso de empate, o desempate fica a cargo do Narrador. Nem todo confronto é puramente físico: em cenas sociais, mágicas ou táticas, o Narrador pode decidir quem age antes com base no contexto narrativo, na preparação ou na posição dos personagens."
+    },
+    {
+      "type": "p",
+      "text": "Criaturas pegas de surpresa rolam a iniciativa em desvantagem. A surpresa ocorre quando um grupo não percebe uma emboscada, quando um inimigo surge de um local inesperado ou quando uma ação furtiva pega a outra parte desprevenida."
+    },
+
+    { "type": "h2", "text": "Turno, Rodada e Cena" },
+    {
+      "type": "p",
+      "text": "O turno é o momento individual em que um personagem age. Durante seu turno, ele pode atacar, se mover, conjurar uma magia, interagir com o ambiente ou realizar qualquer ação narrativa plausível."
+    },
+    {
+      "type": "p",
+      "text": "Uma rodada se encerra quando todos os participantes, seguindo a ordem de iniciativa, realizam seus turnos. Em seguida, uma nova rodada começa, mantendo a mesma ordem."
+    },
+    {
+      "type": "p",
+      "text": "A cena engloba todo o encontro: um combate aberto, uma conversa tensa que se transforma em confronto, uma perseguição ou uma negociação armada. A cena termina quando o conflito principal é resolvido."
+    },
+
+    { "type": "h2", "text": "Ações em Combate" },
+    {
+      "type": "p",
+      "text": "Tales To Eternity não utiliza uma lista fixa de ações. Em vez disso, o jogador descreve o que deseja fazer e, se a ação fizer sentido dentro da narrativa e do mundo, o personagem pode tentar realizá-la."
+    },
+    {
+      "type": "p",
+      "text": "O Narrador pode solicitar um teste sempre que houver risco real, interferência de outras criaturas ou chance concreta de falha. O combate é guiado pela ficção. Perguntas como “posso derrubar a estante para bloquear o corredor?”, “tento empurrar o inimigo para o fogo” ou “uso uma ilusão para distraí-lo” são totalmente válidas. Se fizer sentido, você pode tentar."
+    },
+    {
+      "type": "p",
+      "text": "Algumas ações são reações. Elas podem ocorrer no próprio turno ou no turno de outro personagem, conforme a situação e a decisão do Narrador. Tentar se jogar para o lado ao ser atacado ou interromper uma conjuração são exemplos comuns."
+    },
+    {
+      "type": "p",
+      "text": "A conjuração de magias segue a mesma lógica: o jogador declara a magia, gasta a Fadiga necessária e descreve o efeito narrativo, seja ofensivo, defensivo ou utilitário."
+    },
+
+    { "type": "h2", "text": "Movimento" },
+    {
+      "type": "p",
+      "text": "O FoundryVTT utiliza um grid, onde cada quadrado representa uma zona de movimento. Criaturas maiores podem ocupar mais de um espaço, mas isso não precisa ser seguido de forma rígida. O Narrador pode adaptar o posicionamento conforme a ficção da cena."
+    },
+    {
+      "type": "p",
+      "text": "Mover-se em combate pode exigir testes dependendo do terreno. Gelo, lama, declives, entulho, obstáculos ou climas extremos podem tornar o deslocamento arriscado. Correr sobre um telhado escorregadio ou atravessar um chão instável, por exemplo, pode exigir um teste para evitar quedas."
+    },
+    {
+      "type": "p",
+      "text": "Ao tentar se aproximar ou se afastar de um inimigo, o Narrador define o atributo relevante, a dificuldade do teste e as consequências de uma falha. Essas falhas raramente são absolutas: o personagem pode chegar quase ao local desejado, tropeçar, ficar vulnerável ou se expor a um ataque."
+    },
+    {
+      "type": "rules",
+      "items": [
+        "Próxima: 1 zona, alcance imediato.",
+        "Perto: Até 3 zonas; ainda permite percepção clara e movimento sem testes.",
+        "Distante: Até 6 zonas; aproximação pode exigir testes e dificulta detalhes.",
+        "Longe: Até 9 zonas; visão geral apenas, aproximação pode exigir testes.",
+        "Remoto: Até 12 zonas; apenas silhuetas, aproximação pode exigir testes.",
+        "Inalcançável: Além disso ou fora da linha de visão."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Os alcances são cumulativos. Se algo funciona a uma distância Longe, também funciona em Distante, Perto e Próxima."
+    },
+
+    { "type": "h2", "text": "Ataques" },
+    {
+      "type": "p",
+      "text": "Um ataque é qualquer tentativa direta de causar dano, seja com armas, magias, ataques desarmados ou objetos improvisados."
+    },
+    {
+      "type": "p",
+      "text": "Para atacar, role: Ataque = 1d12 + atributo da arma ou magia"
+    },
+    {
+      "type": "p",
+      "text": "O resultado é comparado com a Defesa do alvo. Se igualar ou superar esse valor, o ataque acerta. Caso contrário, o ataque falha ou gera uma consequência narrativa, como um golpe bloqueado, desviado ou que deixa o atacante exposto."
+    },
+    {
+      "type": "p",
+      "text": "Um personagem pode empunhar uma arma de duas mãos ou duas armas de uma mão, alternando conforme a cena. Magias de ataque seguem as mesmas regras, respeitando alcance, atributo, custo de Fadiga, dano e efeitos específicos."
+    },
+    {
+      "type": "rules",
+      "items": [
+        "Tier 1: 1d6",
+        "Tier 2: 3d4",
+        "Tier 3: 2d12",
+        "Tier 4: 2d20"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Armas improvisadas têm dano definido pelo Narrador, sempre de acordo com a lógica e a narrativa da situação."
+    },
+
+    { "type": "h2", "text": "Dano" },
+    {
+      "type": "p",
+      "text": "Ao acertar um ataque, role o dado de dano da arma ou magia e some o atributo apropriado."
+    },
+    {
+      "type": "p",
+      "text": "Exemplo: um golpe de espada que causa 1d8, usando Poder +3, resulta em 1d8 + 3 de dano."
+    },
+    {
+      "type": "p",
+      "text": "Em um acerto crítico, o dano final é dobrado. O dano é aplicado antes da afinidade e após quaisquer reduções permitidas pelo Narrador, como armaduras especiais ou efeitos narrativos."
+    },
+
+    { "type": "h2", "text": "Afinidade" },
+    {
+      "type": "p",
+      "text": "Afinidade define como um alvo reage a determinados tipos de dano:."
+    },
+    {
+      "type": "rules",
+      "items": [
+        "Resistência: sofre metade do dano.",
+        "Fraqueza: sofre o dobro do dano.",
+        "Imunidade: não sofre dano."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A afinidade é aplicada por último, após todos os cálculos."
+    },
+
+    { "type": "h2", "text": "Condições e Efeitos" },
+    {
+      "type": "p",
+      "text": "Condições são estados temporários causados por magias, golpes especiais, ambiente, habilidades de classe ou falhas interpretativas."
+    },
+    {
+      "type": "p",
+      "text": "Durante seu turno, um personagem pode tentar remover uma condição de diversas formas: realizando um teste apropriado, cumprindo um requisito narrativo específico, usando magia ou recebendo ajuda de outro personagem."
+    },
+    {
+      "type": "p",
+      "text": "Em Tales To Eternity, condições e efeitos são interpretativos por natureza. Sempre que um efeito descrito funcionar como uma limitação, penalidade, bônus ou estado temporário, ele deve ser tratado como uma condição."
+    },
+    {
+      "type": "p",
+      "text": "Por exemplo, a habilidade Ritmo Imparável cria claramente uma condição, ainda que não a nomeie: após causar dano, o próximo ataque contra você sofre −1 no acerto."
+    }
+  ]
+}

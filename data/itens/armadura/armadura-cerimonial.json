@@ -1,0 +1,13 @@
+{
+  "id": "armadura-cerimonial",
+  "name": "Armadura Cerimonial",
+  "category": "armadura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/armadura/armadura-cerimonial.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Ornamentada e simbólica, usada em rituais e funções sociais, oferecendo pouca proteção real."
+    }
+  ]
+}

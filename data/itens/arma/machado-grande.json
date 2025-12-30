@@ -1,0 +1,13 @@
+{
+  "id": "machado-grande",
+  "name": "Machado Grande (2 mãos)",
+  "category": "arma",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/arma/machado-grande.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Devastador quando empunhado com força total, porém difícil de controlar."
+    }
+  ]
+}

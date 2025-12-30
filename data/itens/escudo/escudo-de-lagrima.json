@@ -1,0 +1,13 @@
+{
+  "id": "escudo-de-lagrima",
+  "name": "Escudo de Lágrima",
+  "category": "escudo",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/escudo/escudo-de-lagrima.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Escudo alongado que protege do ombro ao joelho, oferecendo boa cobertura contra ataques frontais."
+    }
+  ]
+}

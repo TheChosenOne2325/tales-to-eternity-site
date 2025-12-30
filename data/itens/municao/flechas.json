@@ -1,0 +1,13 @@
+{
+  "id": "flechas",
+  "name": "Flechas",
+  "category": "municao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/municao/flechas.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Projéteis alongados com ponta metálica, usados em arcos."
+    }
+  ]
+}

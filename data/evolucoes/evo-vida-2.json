@@ -1,7 +1,8 @@
 {
   "id": "evo-vida-2",
   "name": "+2 na Vida",
-  "book": "EdC",  
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/evolucoes/evo-vida-2.webp",
   "text": ["Aumento permanente."]
 
 }

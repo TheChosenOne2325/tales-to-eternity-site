@@ -1,0 +1,13 @@
+{
+  "id": "cobertor",
+  "name": "Cobertor",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/cobertor.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Proteção básica contra frio e umidade."
+    }
+  ]
+}

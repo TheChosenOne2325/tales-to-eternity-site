@@ -1,0 +1,13 @@
+{
+  "id": "peixe",
+  "name": "Peixe",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/peixe.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Carne fresca obtida de rios, lagos ou mares."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "espada-curta",
+  "name": "Espada Curta (1 mão)",
+  "category": "arma",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/arma/espada-curta.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Lâmina leve e versátil, comum entre aventureiros e mercenários; ideal para golpes rápidos e precisos."
+    }
+  ]
+}

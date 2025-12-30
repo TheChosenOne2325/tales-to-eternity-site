@@ -1,0 +1,13 @@
+{
+  "id": "cota-de-malha",
+  "name": "Cota de Malha",
+  "category": "armadura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/armadura/cota-de-malha.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Anéis metálicos entrelaçados, eficaz contra cortes e amplamente utilizados em combate."
+    }
+  ]
+}

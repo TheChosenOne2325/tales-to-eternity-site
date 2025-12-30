@@ -1,0 +1,13 @@
+{
+  "id": "laranja",
+  "name": "Laranja",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/laranja.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Fruta cítrica rica em suco."
+    }
+  ]
+}

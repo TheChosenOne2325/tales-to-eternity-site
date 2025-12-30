@@ -1,0 +1,13 @@
+{
+  "id": "queijo",
+  "name": "Queijo",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/queijo.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Derivado do leite, durável e fácil de transportar."
+    }
+  ]
+}

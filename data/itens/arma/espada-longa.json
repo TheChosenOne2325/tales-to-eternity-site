@@ -1,0 +1,13 @@
+{
+  "id": "espada-longa",
+  "name": "Espada Longa (1 ou 2 mãos)",
+  "category": "arma",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/arma/espada-longa.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Equilibrada e adaptável a diferentes estilos de combate."
+    }
+  ]
+}

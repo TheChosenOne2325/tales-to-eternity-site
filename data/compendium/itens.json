@@ -1,0 +1,737 @@
+{
+  "id": "itens",
+  "title": "Itens",
+  "columns": [
+    "Nome",
+    "Categoria",
+    "Livro"
+  ],
+  "items": [
+    {
+      "id": "acucar",
+      "name": "Açúcar",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "adaga",
+      "name": "Adaga (1 mão)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "agua",
+      "name": "Água",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "alabarda",
+      "name": "Alabarda (2 mãos)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "alface",
+      "name": "Alface",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "alforje",
+      "name": "Alforje",
+      "category": "conteiner",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "alho",
+      "name": "Alho",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "aljava",
+      "name": "Aljava",
+      "category": "conteiner",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "apito",
+      "name": "Apito",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "arco-composto",
+      "name": "Arco Composto (2 mãos)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "arco-curto",
+      "name": "Arco Curto (2 mãos)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "arco-longo",
+      "name": "Arco Longo (2 mãos)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "armadura-cerimonial",
+      "name": "Armadura Cerimonial",
+      "category": "Armadura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "armadura-de-placas",
+      "name": "Armadura de Placas",
+      "category": "Armadura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "armadura-parcial-de-placas",
+      "name": "Armadura Parcial de Placas",
+      "category": "Armadura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "arroz",
+      "name": "Arroz",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "aveia",
+      "name": "Aveia",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "barril",
+      "name": "Barril",
+      "category": "conteiner",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "batata",
+      "name": "Batata",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "bau",
+      "name": "Baú",
+      "category": "conteiner",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "besta",
+      "name": "Besta (2 mãos)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "bolsa",
+      "name": "Bolsa",
+      "category": "conteiner",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "brigandina",
+      "name": "Brigandina",
+      "category": "Armadura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "broquel",
+      "name": "Broquel",
+      "category": "Escudo",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "bussola",
+      "name": "Bússola",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "caixa",
+      "name": "Caixa",
+      "category": "conteiner",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "cajado-de-combate",
+      "name": "Cajado de Combate (2 mãos)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "cantil",
+      "name": "Cantil",
+      "category": "conteiner",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "carne-bovina",
+      "name": "Carne Bovina",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "carne-de-frango",
+      "name": "Carne de Frango",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "carne-de-porco",
+      "name": "Carne de Porco",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "carne-seca",
+      "name": "Carne Seca",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "cebola",
+      "name": "Cebola",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "cenoura",
+      "name": "Cenoura",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "cerveja",
+      "name": "Cerveja",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "cesto",
+      "name": "Cesto",
+      "category": "conteiner",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "clava",
+      "name": "Clava (1 mão)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "cobertor",
+      "name": "Cobertor",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "corda",
+      "name": "Corda",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "cota-de-malha",
+      "name": "Cota de Malha",
+      "category": "Armadura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "cota-laminar",
+      "name": "Cota Laminar",
+      "category": "Armadura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "couro-reforcado",
+      "name": "Couro Reforçado",
+      "category": "Armadura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "escudo-cerimonial",
+      "name": "Escudo Cerimonial",
+      "category": "Escudo",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "escudo-de-lagrima",
+      "name": "Escudo de Lágrima",
+      "category": "Escudo",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "escudo-redondo",
+      "name": "Escudo Redondo",
+      "category": "Escudo",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "escudo-torre",
+      "name": "Escudo Torre",
+      "category": "Escudo",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "espada-curta",
+      "name": "Espada Curta (1 mão)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "espada-longa",
+      "name": "Espada Longa (1 ou 2 mãos)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "estacas",
+      "name": "Estacas",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "estojo",
+      "name": "Estojo",
+      "category": "conteiner",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "estojo-de-virotes",
+      "name": "Estojo de Virotes",
+      "category": "conteiner",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "faca-utilitaria",
+      "name": "Faca Utilitária",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "farinha",
+      "name": "Farinha",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "feijao",
+      "name": "Feijão",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "flechas",
+      "name": "Flechas",
+      "category": "Munição",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "flechas-de-caca",
+      "name": "Flechas de Caça",
+      "category": "Munição",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "flechas-de-treinamento",
+      "name": "Flechas de Treinamento",
+      "category": "Munição",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "flechas-incendiarias",
+      "name": "Flechas Incendiárias",
+      "category": "Munição",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "flechas-sinalizadoras",
+      "name": "Flechas Sinalizadoras",
+      "category": "Munição",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "foice-de-guerra",
+      "name": "Foice de Guerra (2 mãos)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "frasco",
+      "name": "Frasco",
+      "category": "conteiner",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "gancho",
+      "name": "Gancho",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "lanca",
+      "name": "Lança (2 mãos)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "lanterna",
+      "name": "Lanterna",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "laranja",
+      "name": "Laranja",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "leite",
+      "name": "Leite",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "linguica",
+      "name": "Linguiça",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "maca",
+      "name": "Maçã",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "maca",
+      "name": "Maça (1 mão)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "machado-de-batalha",
+      "name": "Machado de Batalha (1 mão)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "machado-grande",
+      "name": "Machado Grande (2 mãos)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "mangual",
+      "name": "Mangual (1 mão)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "manteiga",
+      "name": "Manteiga",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "mapa-simples",
+      "name": "Mapa Simples",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "martelo-de-guerra",
+      "name": "Martelo de Guerra (2 mãos)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "martelo-leve",
+      "name": "Martelo Leve (1 mão)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "martelo-pequeno",
+      "name": "Martelo Pequeno",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "mel",
+      "name": "Mel",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "milho",
+      "name": "Milho",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "mochila",
+      "name": "Mochila",
+      "category": "conteiner",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "odre",
+      "name": "Odre",
+      "category": "conteiner",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "oleo-para-tocha",
+      "name": "Óleo para Tocha",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "ovos",
+      "name": "Ovos",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "pa-pequena",
+      "name": "Pá Pequena",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "pao",
+      "name": "Pão",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "pederneira",
+      "name": "Pederneira",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "peixe",
+      "name": "Peixe",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "pocao-antidoto",
+      "name": "Poção Antídoto",
+      "category": "Poção",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "pocao-de-fadiga",
+      "name": "Poção de Fadiga",
+      "category": "Poção",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "pocao-de-foco",
+      "name": "Poção de Foco",
+      "category": "Poção",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "pocao-de-forca",
+      "name": "Poção de Força",
+      "category": "Poção",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "pocao-de-invisibilidade",
+      "name": "Poção de Invisibilidade",
+      "category": "Poção",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "pocao-de-resistencia",
+      "name": "Poção de Resistência",
+      "category": "Poção",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "pocao-de-respiracao-aquatica",
+      "name": "Poção de Respiração Aquática",
+      "category": "Poção",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "pocao-de-velocidade",
+      "name": "Poção de Velocidade",
+      "category": "Poção",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "pocao-de-vida",
+      "name": "Poção de Vida",
+      "category": "Poção",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "pocao-de-visao-noturna",
+      "name": "Poção de Visão Noturna",
+      "category": "Poção",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "projeteis-especiais",
+      "name": "Projéteis Especiais",
+      "category": "Munição",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "queijo",
+      "name": "Queijo",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "racoes",
+      "name": "Rações",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "rede",
+      "name": "Rede",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "repolho",
+      "name": "Repolho",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "roupas-acolchoadas",
+      "name": "Roupas Acolchoadas",
+      "category": "Armadura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "sabre",
+      "name": "Sabre (1 mão)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "saco-de-couro",
+      "name": "Saco de Couro",
+      "category": "conteiner",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "saco-de-dormir",
+      "name": "Saco de Dormir",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "saco-de-pano",
+      "name": "Saco de Pano",
+      "category": "conteiner",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "sal",
+      "name": "Sal",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "sino-pequeno",
+      "name": "Sino Pequeno",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "tenda",
+      "name": "Tenda",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "tochas",
+      "name": "Tochas",
+      "category": "Aventura",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "tomate",
+      "name": "Tomate",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "tridente",
+      "name": "Tridente (2 mãos)",
+      "category": "Arma",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "trigo",
+      "name": "Trigo",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "uva",
+      "name": "Uva",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "vinho",
+      "name": "Vinho",
+      "category": "Suprimento",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "virotes",
+      "name": "Virotes",
+      "category": "Munição",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "virotes-de-treinamento",
+      "name": "Virotes de Treinamento",
+      "category": "Munição",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "virotes-perfurantes",
+      "name": "Virotes Perfurantes",
+      "category": "Munição",
+      "book": "Ecos Dos Cosmos"
+    },
+    {
+      "id": "virotes-pesados",
+      "name": "Virotes Pesados",
+      "category": "Munição",
+      "book": "Ecos Dos Cosmos"
+    }
+  ]
+}

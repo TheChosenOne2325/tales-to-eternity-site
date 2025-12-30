@@ -1,0 +1,13 @@
+{
+  "id": "pocao-de-invisibilidade",
+  "name": "Poção de Invisibilidade",
+  "category": "pocao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/pocao/pocao-de-invisibilidade.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Líquido translúcido que torna o consumidor difícil de perceber."
+    }
+  ]
+}

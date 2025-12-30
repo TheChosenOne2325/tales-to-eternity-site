@@ -1,0 +1,7 @@
+{
+  "id": "comer",
+  "name": "Comer",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/descanso/comer.webp",
+  "text": ["Fortalece corpo e mente, adicionando 1d6 à próxima rolagem de descanso. Uma refeição quente após horas sob chuva pode fazer grande diferença."]
+}

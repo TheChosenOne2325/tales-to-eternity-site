@@ -1,0 +1,13 @@
+{
+  "id": "agua",
+  "name": "Água",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/agua.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Líquido potável essencial para sobrevivência."
+    }
+  ]
+}

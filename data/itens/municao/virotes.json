@@ -1,0 +1,13 @@
+{
+  "id": "virotes",
+  "name": "Virotes",
+  "category": "municao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/municao/virotes.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Projéteis curtos e robustos, usados em bestas."
+    }
+  ]
+}

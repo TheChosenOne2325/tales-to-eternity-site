@@ -1,0 +1,13 @@
+{
+  "id": "aveia",
+  "name": "Aveia",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/aveia.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Grãos leves e nutritivos, comuns em refeições rápidas."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "arco-curto",
+  "name": "Arco Curto (2 mãos)",
+  "category": "arma",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/arma/arco-curto.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Leve e compacto, eficaz em curta e média distância, com disparos rápidos."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "mapa-simples",
+  "name": "Mapa Simples",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/mapa-simples.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Mapa desenhado à mão com rotas e pontos de referência."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "estacas",
+  "name": "Estacas",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/estacas.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Peças usadas para fixar tendas e cordas ao solo."
+    }
+  ]
+}

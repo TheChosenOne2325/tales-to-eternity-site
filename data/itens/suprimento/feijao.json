@@ -1,0 +1,13 @@
+{
+  "id": "feijao",
+  "name": "Feijão",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/feijao.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Grãos consistentes usados em refeições simples e reforçadas."
+    }
+  ]
+}

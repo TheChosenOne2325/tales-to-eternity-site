@@ -1,0 +1,13 @@
+{
+  "id": "barril",
+  "name": "Barril",
+  "category": "conteiner",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/conteiner/barril.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Recipiente cilíndrico para líquidos ou grãos."
+    }
+  ]
+}

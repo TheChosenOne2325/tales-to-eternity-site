@@ -1,0 +1,13 @@
+{
+  "id": "pocao-de-visao-noturna",
+  "name": "Poção de Visão Noturna",
+  "category": "pocao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/pocao/pocao-de-visao-noturna.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Preparado escuro que aprimora a visão no escuro."
+    }
+  ]
+}

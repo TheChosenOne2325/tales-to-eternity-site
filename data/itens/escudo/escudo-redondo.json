@@ -1,0 +1,13 @@
+{
+  "id": "escudo-redondo",
+  "name": "Escudo Redondo",
+  "category": "escudo",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/escudo/escudo-redondo.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Escudo médio de madeira reforçada, comum entre guerreiros e mercenários, equilibrando defesa e manuseio."
+    }
+  ]
+}

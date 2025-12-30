@@ -1,0 +1,13 @@
+{
+  "id": "pa-pequena",
+  "name": "Pá Pequena",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/pa-pequena.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Usada para cavar, enterrar objetos ou abrir caminhos."
+    }
+  ]
+}

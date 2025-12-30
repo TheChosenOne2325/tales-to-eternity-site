@@ -1,0 +1,13 @@
+{
+  "id": "repolho",
+  "name": "Repolho",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/repolho.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Folha resistente, comum em refeições simples."
+    }
+  ]
+}

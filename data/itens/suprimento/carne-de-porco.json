@@ -1,0 +1,13 @@
+{
+  "id": "carne-de-porco",
+  "name": "Carne de Porco",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/carne-de-porco.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Carne saborosa e mais gordurosa, muito usada em pratos populares."
+    }
+  ]
+}

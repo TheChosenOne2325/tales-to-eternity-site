@@ -1,0 +1,13 @@
+{
+  "id": "cantil",
+  "name": "Cantil",
+  "category": "conteiner",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/conteiner/cantil.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Recipiente portátil para armazenar líquidos."
+    }
+  ]
+}

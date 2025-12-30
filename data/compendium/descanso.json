@@ -1,0 +1,12 @@
+{
+  "id": "descanso",
+  "title": "Descanso",
+  "columns": ["Nome", "Livro"],
+  "items": [
+    { "id": "cuidar-das-feridas", "name": "Cuidar das feridas", "book": "EdC" },
+    { "id": "meditar", "name": "Meditar", "book": "EdC" },
+    { "id": "comer", "name": "Comer", "book": "EdC" },
+    { "id": "cochilar", "name": "Cochilar", "book": "EdC" },
+    { "id": "dormir", "name": "Dormir", "book": "EdC" }
+  ]
+}

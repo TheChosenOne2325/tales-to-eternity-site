@@ -1,0 +1,13 @@
+{
+  "id": "mochila",
+  "name": "Mochila",
+  "category": "conteiner",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/conteiner/mochila.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Usada para carregar suprimentos e equipamentos."
+    }
+  ]
+}

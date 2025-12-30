@@ -1,0 +1,13 @@
+{
+  "id": "pocao-de-fadiga",
+  "name": "Poção de Fadiga",
+  "category": "pocao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/pocao/pocao-de-fadiga.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Líquido amargo ou energizante que reduz o cansaço arcano."
+    }
+  ]
+}

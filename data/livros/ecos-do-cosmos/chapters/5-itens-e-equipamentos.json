@@ -1,0 +1,114 @@
+{
+  "id": "5-itens-e-equipamentos",
+  "title": "Capítulo 5 — Itens e Equipamentos",
+  "blocks": [
+    { "type": "h2", "text": "Capacidade de Carga" },
+    { "type": "p", "text": "A capacidade de carga em Tales To Eternity é totalmente narrativa. Não existe tabela, limite fixo ou cálculo numérico. Em vez disso, a carga deve ser avaliada com base em bom senso, atributos do personagem, equipamentos usados e situação atual." },
+    { "type": "p", "text": "Carregar uma mochila com suprimentos, armas e alguns objetos é esperado. Porém, tentar transportar dezenas de armas, várias armaduras pesadas ao mesmo tempo ou itens grandes demais pode gerar penalidades narrativas, exigir testes (esforço, equilíbrio, resistência ou mobilidade) — ou simplesmente não ser possível." },
+    { "type": "p", "text": "Por exemplo, levar uma armadura extra amarrada à mochila pode ser plausível, mas atrapalha escaladas, perseguições e movimentos rápidos. Já tentar sair de uma masmorra carregando um baú enorme pode exigir improviso: arrastar, dividir o peso, abandonar parte da carga ou aceitar riscos. A palavra final é do Narrador, sempre em conjunto com a lógica da cena." },
+
+    { "type": "h2", "text": "Dinheiro" },
+    { "type": "p", "text": "O sistema monetário de Tales To Eternity utiliza cinco moedas. Cada uma vale 10 vezes a moeda imediatamente inferior. Isso mantém a economia simples, consistente e fácil de entender: compras comuns usam moedas baixas, enquanto contratos e itens raros envolvem moedas altas." },
+    { "type": "p", "text": "Além das moedas, escambo e negociação são comuns. Favores, itens, informações e serviços podem valer mais do que dinheiro dependendo da região. Um ferreiro pode aceitar reparar uma arma em troca de proteção na estrada; um informante pode preferir uma promessa — ou um item específico — a qualquer quantia." },
+    {"type": "rules",
+      "items": [
+       "Ferril > Cravo > Lumem > Auris > Apex"
+      ]
+    },
+
+    { "type": "p", "text": "A lista completa das moeadas, com suas características e descrições, está disponível no [Compendium de Moedas](compendium:moedas)." },
+
+    { "type": "h2", "text": "Itens e Equipamentos" },
+    { "type": "p", "text": "Itens podem ser qualquer coisa no mundo: uma fruta, uma tocha, um livro, uma ferramenta, uma arma ou um artefato estranho. Nem todo item precisa de regras complexas; muitos funcionam pela lógica narrativa. O mais importante é que itens sejam tratados como parte viva do mundo — e não apenas como números." },
+    { "type": "p", "text": "Um mesmo item pode ter usos diferentes conforme a criatividade do grupo. Uma rede pode servir para descanso, mas também para capturar algo pequeno. O óleo de tocha ilumina, mas pode criar uma barreira de fogo. Um apito pode marcar um encontro… ou chamar atenção indesejada." },
+    { "type": "p", "text": "Equipamentos precisam estar equipados para conceder benefícios. Uma arma só funciona se estiver empunhada ou acessível. Uma armadura só concede Defesa se estiver vestida. Alguns itens dão bônus apenas quando usados corretamente." },
+    { "type": "p", "text": "Se um item não estiver equipado, ele normalmente não fornece bônus, a menos que o texto diga o contrário. Carregar um escudo nas costas pode ser útil narrativamente, mas não concede Defesa até estar em uso." },
+
+    { "type": "h2", "text": "Armas" },
+    { "type": "p", "text": "Armas são uma das principais formas de causar dano em Tales To Eternity. Cada arma possui um conjunto de características que define seu uso tanto na narrativa quanto na mecânica:" },
+    { "type": "p", "text": "Nome, quantidade de mãos, atributo utilizado, dano, tipo de dano, Tier, alcance e traços." },
+    { "type": "p", "text": "Esses elementos determinam como a arma se comporta em jogo. Uma adaga favorece furtividade e ataques rápidos; uma arma de haste controla espaço e mantém inimigos à distância." },
+    { "type": "p", "text": "Se uma arma de duas mãos for usada com apenas uma mão, duas penalidades se aplicam:" },
+    {
+      "type": "rules",
+      "items": [
+        "o ataque é feito com desvantagem;",
+        "o dano é reduzido pela metade."
+      ]
+    },
+    { "type": "p", "text": "O dano das armas é separado por Tier, com possíveis exceções descritas individualmente. Essa divisão mantém o jogo escalável, acompanhando a progressão de poder do grupo." },
+    {
+      "type": "rules",
+      "items": [
+        "Tier 1: 1d4 • 1d6 • 1d8 • 2d4 • 1d10 • 1d12",
+        "Tier 2: 2d6 • 3d4 • 2d8 • 4d4 • 1d20 • 3d6",
+        "Tier 3: 2d10 • 2d12 • 3d8 • 4d6 • 3d10 • 4d8",
+        "Tier 4: 3d12 • 2d20 • 4d10 • 4d12 • 3d20 • 4d20"
+      ]
+    },
+    { "type": "p", "text": "Existem três tipos principais de dano em Tales To Eternity:" },
+    {
+      "type": "rules",
+      "items": [
+        "Físico: causado por armas, impactos e força bruta. É o dano mais comum em combates diretos, quedas, esmagamentos e golpes.",
+        "Mágico: causado por magias e efeitos arcanos ou sobrenaturais, ligados à Eternidade e além do mundo material.",
+        "Direto: ignora resistências, imunidades e reduções de dano. Quando algo causa dano Direto, ele atravessa defesas que normalmente reduziriam ou anulariam o impacto."
+      ]
+    },
+    { "type": "p", "text": "A lista de armas você pode encontrar no [Compendium de Itens](compendium:itens)." },
+
+    { "type": "h2", "text": "Defesa" },
+    { "type": "p", "text": "A Defesa representa a capacidade de um personagem de evitar ataques, desviar golpes ou reduzir o impacto quando é atingido. Ela reflete tanto proteção física quanto posicionamento, preparo e equipamentos adequados." },
+    { "type": "p", "text": "O valor da Defesa é a soma de:" },
+    { "type": "p", "text": "Armadura + Escudo + bônus adicionais" },
+    { "type": "p", "text": "A Defesa não escala com o nível. Seu valor depende exclusivamente dos equipamentos utilizados e de efeitos específicos concedidos por habilidades, magias ou condições especiais." },
+    { "type": "p", "text": "Como referência de equilíbrio, estas são faixas comuns de Defesa por Tier:" },
+    {
+      "type": "rules",
+      "items": [
+        "Tier 1: 7–10",
+        "Tier 2: 8–11",
+        "Tier 3: 9–12",
+        "Tier 4: 10–13"
+      ]
+    },
+    { "type": "p", "text": "Esses valores servem como guia geral. Defesas fora dessa faixa podem existir, mas normalmente envolvem equipamentos raros, efeitos temporários ou riscos adicionais." },
+
+    { "type": "h2", "text": "Armaduras e Escudos" },
+    { "type": "p", "text": "As armaduras variam desde proteções simples até equipamentos raros e sobrenaturais. Algumas surgem por necessidade prática, outras por tradição cultural — e algumas existem como expressão de poder, status ou influência arcana." },
+    { "type": "p", "text": "Cada armadura oferece um equilíbrio diferente entre proteção, mobilidade e conforto. Armaduras mais leves permitem maior liberdade de movimento, enquanto armaduras pesadas oferecem melhor proteção em confrontos diretos, mas podem impor limitações narrativas." },
+    { "type": "p", "text": "Escudos concedem Defesa adicional ao usuário, representando a capacidade de bloquear, aparar ou absorver golpes. Um personagem pode carregar mais de um escudo, mas apenas um concede benefícios por vez." },
+    { "type": "p", "text": "O uso de escudos influencia diretamente o estilo de combate. Escudos menores favorecem mobilidade e reação rápida, enquanto escudos grandes oferecem maior cobertura, mas exigem posicionamento cuidadoso." },
+    { "type": "p", "text": "A lista de armaduras e escudos você pode encontrar no [Compendium de Itens](compendium:itens)." },
+
+    { "type": "h2", "text": "Traços" },
+    { "type": "p", "text": "Traços são características especiais de itens, principalmente armas, armaduras e escudos. Eles podem ser positivos ou negativos e não precisam ser puramente numéricos. Um traço pode mudar o estilo de combate, abrir novas possibilidades ou impor limitações interessantes." },
+    { "type": "p", "text": "Exemplos de traços incluem:" },
+    {
+      "type": "rules",
+      "items": [
+        "Causar mais dano quando usada com duas mãos;",
+        "Ser arremessável a determinada distância;",
+        "Utilizar munição;",
+        "Permitir usar um atributo diferente para ataque e dano;",
+        "Aumentar ou reduzir chance de acerto;",
+        "Aumentar ou reduzir dano;",
+        "Conceder bônus ou penalidade na Defesa;",
+        "Conceder resistência ou imunidade a um tipo de dano;",
+        "Alterar condições de acerto crítico;",
+        "Impor fraquezas ou reduzir atributos específicos."
+      ]
+    },
+    { "type": "p", "text": "Os valores exatos são definidos quando o item é criado. Na prática, os traços existem para garantir que duas armas do mesmo tipo não sejam iguais." },
+
+    { "type": "h2", "text": "Lista de Itens" },
+    { "type": "p", "text": "Além de armas, armaduras e escudos, o jogo oferece diversos itens que sustentam exploração, viagens e cenas narrativas. Em muitos casos, esses itens não precisam de números: seu valor vem do uso inteligente e do impacto que causam na história." },
+    { "type": "p", "text": "A lista de itens você pode encontrar no compendium de itens." },
+    { "type": "p", "text": "Suprimentos incluem alimentos e recursos básicos de sobrevivência, como rações, grãos, carnes, frutas e água. Eles podem surgir como detalhes narrativos ou influenciar diretamente decisões do grupo." },
+    { "type": "p", "text": "Itens de aventura são ferramentas práticas para resolver problemas e improvisar soluções durante viagens e explorações." },
+    { "type": "p", "text": "Contêineres organizam a carga e protegem itens, influenciando o que está acessível, guardado ou vulnerável." },
+    { "type": "p", "text": "Poções são consumíveis de efeito imediato, com forte impacto mecânico e narrativo." },
+    { "type": "p", "text": "Munições sustentam armas de disparo e ampliam opções táticas." },
+     { "type": "p", "text": "A lista de itens você pode encontrar no [Compendium de Itens](compendium:itens)." }
+  ]
+}

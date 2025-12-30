@@ -1,0 +1,13 @@
+{
+  "id": "estojo-de-virotes",
+  "name": "Estojo de Virotes",
+  "category": "conteiner",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/conteiner/estojo-de-virotes.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Contêiner rígido para virotes de besta."
+    }
+  ]
+}

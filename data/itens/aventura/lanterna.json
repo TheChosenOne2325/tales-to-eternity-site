@@ -1,0 +1,13 @@
+{
+  "id": "lanterna",
+  "name": "Lanterna",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/lanterna.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Fonte de luz portátil, mais durável que uma tocha."
+    }
+  ]
+}

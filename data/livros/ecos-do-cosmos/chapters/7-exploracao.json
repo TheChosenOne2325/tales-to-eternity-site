@@ -1,0 +1,105 @@
+{
+  "id": "7-exploracao",
+  "title": "Capítulo 7 — Exploração",
+  "blocks": [
+    { "type": "h2", "text": "Testes" },
+    {
+      "type": "p",
+      "text": "Testes são utilizados sempre que existe incerteza real ou risco narrativo. Quando algo é importante demais para simplesmente “acontecer”, ou quando o resultado pode gerar consequências interessantes para a história, o Narrador pode solicitar um teste."
+    },
+    {
+      "type": "p",
+      "text": "Para realizar um teste, o jogador rola 1d12, adiciona o atributo apropriado e quaisquer bônus relevantes, como Aspectos. O resultado final é comparado com a dificuldade definida pelo Narrador. Se o valor for igual ou maior que a dificuldade, a ação tem sucesso; se for menor, ocorre uma falha."
+    },
+    {
+      "type": "p",
+      "text": "Esses testes podem representar praticamente qualquer ação fora do combate: escalar um muro, nadar contra uma correnteza, investigar uma pista esquecida, resistir ao frio extremo, atravessar uma ponte instável ou conduzir um ritual."
+    },
+    {
+      "type": "p",
+      "text": "Alguns testes representam esforços prolongados ou complexos. Atravessar um pântano pode exigir várias rolagens ao longo do tempo, enquanto uma investigação em grupo pode envolver personagens ajudando uns aos outros ou disputando quem encontra a informação primeiro."
+    },
+    {
+      "type": "p",
+      "text": "Como em todo Tales To Eternity, sucessos e falhas são interpretados de forma flexível. Falhar não significa, necessariamente, um desastre. Ao tentar escalar um muro com dificuldade 7, por exemplo, um resultado 6 pode indicar que o personagem não chega ao topo, mas fica pendurado, criando uma nova situação. Um sucesso apertado pode significar que ele consegue subir, mas deixa rastros ou se cansa mais do que o esperado."
+    },
+
+    { "type": "h2", "text": "Visão, Iluminação e Cobertura" },
+    {
+      "type": "p",
+      "text": "Visão e iluminação são tratadas de forma totalmente narrativa. Luz, sombras, escuridão, neblina densa ou efeitos mágicos influenciam a percepção e a clareza das ações, sem a necessidade de regras rígidas."
+    },
+    {
+      "type": "p",
+      "text": "O Narrador pode aplicar vantagem, desvantagem ou simplesmente declarar que uma ação não é possível caso o personagem não tenha linha de visão adequada. Coberturas como paredes, colunas, troncos ou vegetação densa interferem diretamente na cena."
+    },
+    {
+      "type": "p",
+      "text": "Por exemplo, um arqueiro tentando acertar um alvo em um corredor escuro pode sofrer desvantagem. Uma criatura parcialmente escondida atrás de uma coluna pode não ser atingida diretamente. Da mesma forma, um buraco profundo ou uma cortina densa de fumaça pode bloquear completamente a visão, impedindo ações à distância."
+    },
+
+    { "type": "h2", "text": "Fome, Sede e Exaustão" },
+    {
+      "type": "p",
+      "text": "Fome, sede e exaustão existem no jogo, mas são tratadas de forma narrativa, sem controle minucioso de recursos. Em situações normais, desde que os personagens tenham acesso a comida, água e descanso, essas necessidades são supridas naturalmente."
+    },
+    {
+      "type": "p",
+      "text": "Quando esses recursos faltam — ou quando o ambiente é hostil — o Narrador pode aplicar consequências leves. Um grupo viajando dias sem água em um deserto pode sofrer desvantagem em ações físicas. Personagens exaustos após longas marchas podem ser forçados a realizar testes de resistência."
+    },
+    {
+      "type": "p",
+      "text": "Ambientes extremos exigem atenção especial. Regiões geladas podem exigir pausas frequentes para evitar congelamento. Áreas amaldiçoadas podem drenar energia apenas pela permanência prolongada, mesmo sem combates ou testes diretos."
+    },
+
+    { "type": "h2", "text": "Viagem, Deslocamento e Ambiente" },
+    {
+      "type": "p",
+      "text": "Viajar pelo mundo é uma das experiências centrais de Tales To Eternity. Durante longos deslocamentos, os personagens podem enfrentar perigos naturais, criaturas errantes, mudanças climáticas repentinas ou oportunidades inesperadas."
+    },
+    {
+      "type": "p",
+      "text": "O Narrador descreve a jornada conforme necessário, enquanto os jogadores decidem como avançar. O grupo pode optar por viajar rápido para ganhar tempo, assumindo riscos maiores, ou seguir com cautela, explorando o caminho e evitando perigos."
+    },
+    {
+      "type": "p",
+      "text": "O ambiente tem papel fundamental. Trilhas de montanha podem exigir testes para evitar quedas. Florestas densas podem ocultar predadores. Tempestades podem atrasar a viagem ou forçar o grupo a procurar abrigo. Chuvas intensas, ventos fortes, nevascas ou calor extremo afetam o progresso de forma narrativa."
+    },
+    {
+      "type": "p",
+      "text": "Perigos ambientais também fazem parte da exploração. Um deslizamento pode separar o grupo, uma área alagada pode exigir improvisação, e um terreno instável pode transformar uma simples viagem em um desafio memorável."
+    },
+
+    { "type": "h2", "text": "Descanso" },
+    {
+      "type": "p",
+      "text": "Descansar é essencial para manter o grupo preparado para novos desafios. O descanso representa atividades realizadas entre cenas de tensão, durante viagens ou em momentos de pausa."
+    },
+    {
+      "type": "p",
+      "text": "O Narrador pode ajustar a eficácia de qualquer tipo de descanso conforme o ambiente, o tempo disponível e as condições atuais."
+    },
+    {
+      "type": "p",
+      "text": "Para descansar, o personagem deve ter no mínimo 1 ponto de Vida. Ações de descanso devem ser ininterruptas; se forem interrompidas, o processo é cancelado e deve ser reiniciado."
+    },
+    {
+      "type": "p",
+      "text": "A lista de atividades de descanso você pode encontrar no [Compendium de Descanso](compendium:descanso)."
+    },
+
+    { "type": "h2", "text": "Social" },
+    {
+      "type": "p",
+      "text": "Exploração não envolve apenas o ambiente físico. Interagir com outras pessoas é igualmente importante. Personagens conversam com comerciantes, guardas, sábios, viajantes, líderes locais ou criaturas mágicas, e essas interações moldam o mundo tanto quanto combates."
+    },
+    {
+      "type": "p",
+      "text": "Conversas podem revelar informações, resolver conflitos, abrir caminhos ou criar alianças inesperadas. Em uma vila desconfiada, convencer um ancião pode ser mais importante do que derrotar um inimigo."
+    },
+    {
+      "type": "p",
+      "text": "Algumas interações exigem testes — como convencer, mentir, intimidar ou perceber comportamentos suspeitos. Em outras situações, uma boa interpretação e a lógica narrativa são suficientes para conduzir a cena."
+    }
+  ]
+}

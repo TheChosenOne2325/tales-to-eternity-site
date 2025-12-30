@@ -1,0 +1,13 @@
+{
+  "id": "pederneira",
+  "name": "Pederneira",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/pederneira.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Ferramenta usada para acender fogo."
+    }
+  ]
+}

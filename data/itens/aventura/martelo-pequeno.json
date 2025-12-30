@@ -1,0 +1,13 @@
+{
+  "id": "martelo-pequeno",
+  "name": "Martelo Pequeno",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/martelo-pequeno.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Ferramenta simples para estacas e pequenos reparos."
+    }
+  ]
+}

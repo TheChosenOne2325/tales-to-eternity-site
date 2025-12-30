@@ -1,0 +1,13 @@
+{
+  "id": "mel",
+  "name": "Mel",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/mel.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Doce natural produzido por abelhas, resistente ao tempo."
+    }
+  ]
+}

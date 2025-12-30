@@ -1,0 +1,13 @@
+{
+  "id": "estojo",
+  "name": "Estojo",
+  "category": "conteiner",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/conteiner/estojo.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Contêiner pequeno para objetos delicados."
+    }
+  ]
+}

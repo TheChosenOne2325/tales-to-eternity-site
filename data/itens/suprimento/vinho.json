@@ -1,0 +1,13 @@
+{
+  "id": "vinho",
+  "name": "Vinho",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/vinho.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Bebida alcoólica fermentada feita de frutas."
+    }
+  ]
+}

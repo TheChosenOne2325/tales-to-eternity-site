@@ -1,0 +1,13 @@
+{
+  "id": "corda",
+  "name": "Corda",
+  "category": "aventura",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/aventura/corda.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Usada para escaladas, amarrações e resgates."
+    }
+  ]
+}

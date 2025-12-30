@@ -1,0 +1,13 @@
+{
+  "id": "pocao-antidoto",
+  "name": "Poção Antídoto",
+  "category": "pocao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/pocao/pocao-antidoto.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Preparado alquímico que neutraliza venenos comuns."
+    }
+  ]
+}

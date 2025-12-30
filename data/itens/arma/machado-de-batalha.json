@@ -1,0 +1,13 @@
+{
+  "id": "machado-de-batalha",
+  "name": "Machado de Batalha (1 mão)",
+  "category": "arma",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/arma/machado-de-batalha.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Golpes fortes e diretos, com impacto consistente."
+    }
+  ]
+}

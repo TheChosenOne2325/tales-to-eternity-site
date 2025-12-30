@@ -1,0 +1,13 @@
+{
+  "id": "carne-bovina",
+  "name": "Carne Bovina",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/carne-bovina.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Carne vermelha fresca, rica e substancial."
+    }
+  ]
+}

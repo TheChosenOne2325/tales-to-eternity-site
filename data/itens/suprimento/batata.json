@@ -1,0 +1,13 @@
+{
+  "id": "batata",
+  "name": "Batata",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/batata.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Tubérculo nutritivo e versátil."
+    }
+  ]
+}

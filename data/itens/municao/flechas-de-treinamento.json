@@ -1,0 +1,13 @@
+{
+  "id": "flechas-de-treinamento",
+  "name": "Flechas de Treinamento",
+  "category": "municao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/municao/flechas-de-treinamento.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Flechas sem ponta letal para prática."
+    }
+  ]
+}

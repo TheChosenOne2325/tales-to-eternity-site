@@ -1,0 +1,13 @@
+{
+  "id": "bolsa",
+  "name": "Bolsa",
+  "category": "conteiner",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/conteiner/bolsa.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Bolsa simples de pano ou couro para itens leves."
+    }
+  ]
+}

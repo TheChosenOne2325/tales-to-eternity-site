@@ -210,8 +210,14 @@ li:hover {
 
 .compendium-table .row {
   display: grid;
-  grid-template-columns: 1fr 120px;
+  grid-template-columns: 2fr repeat(calc(var(--cols) - 1), 1fr);
+  align-items: center;
 }
+
+.compendium-table .row .cell:last-child {
+  text-align: center;
+}
+
 
 .compendium-table .row.head {
   background: rgba(255,255,255,0.06);
@@ -221,6 +227,7 @@ li:hover {
 .compendium-table .cell {
   padding: 10px 12px;
   border-bottom: 1px solid rgba(255,255,255,0.08);
+  white-space: nowrap;
 }
 
 .compendium-table .row.item:hover {

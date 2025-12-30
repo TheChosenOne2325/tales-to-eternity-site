@@ -1,0 +1,13 @@
+{
+  "id": "pocao-de-foco",
+  "name": "Poção de Foco",
+  "category": "pocao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/pocao/pocao-de-foco.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Preparado claro que mantém a mente alerta e concentrada."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "tridente",
+  "name": "Tridente (2 mãos)",
+  "category": "arma",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/arma/tridente.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Eficaz em terra firme e em ambientes aquáticos."
+    }
+  ]
+}

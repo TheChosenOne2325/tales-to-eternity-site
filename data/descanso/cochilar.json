@@ -1,0 +1,7 @@
+{
+  "id": "cochilar",
+  "name": "Cochilar",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/descanso/cochilar.webp",
+  "text": ["Um descanso curto, mas eficaz. A cada hora, o personagem recupera 1d4 de Vida e de Fadiga."]
+}

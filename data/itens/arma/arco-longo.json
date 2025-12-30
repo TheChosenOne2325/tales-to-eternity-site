@@ -1,0 +1,13 @@
+{
+  "id": "arco-longo",
+  "name": "Arco Longo (2 mãos)",
+  "category": "arma",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/arma/arco-longo.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Exige força e técnica, mas oferece grande alcance e alto impacto."
+    }
+  ]
+}

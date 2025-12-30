@@ -1,0 +1,13 @@
+{
+  "id": "pocao-de-velocidade",
+  "name": "Poção de Velocidade",
+  "category": "pocao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/pocao/pocao-de-velocidade.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Líquido vibrante que acelera os movimentos."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "escudo-torre",
+  "name": "Escudo Torre",
+  "category": "escudo",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/escudo/escudo-torre.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Escudo alto e retangular, pesado e difícil de manobrar, usado para formar linhas defensivas."
+    }
+  ]
+}

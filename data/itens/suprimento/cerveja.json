@@ -1,0 +1,13 @@
+{
+  "id": "cerveja",
+  "name": "Cerveja",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/cerveja.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Bebida alcoólica fermentada de grãos."
+    }
+  ]
+}

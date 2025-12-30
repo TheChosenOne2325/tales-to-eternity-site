@@ -1,0 +1,13 @@
+{
+  "id": "alforje",
+  "name": "Alforje",
+  "category": "conteiner",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/conteiner/alforje.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Conjunto de bolsas usado em montarias ou viagens longas."
+    }
+  ]
+}

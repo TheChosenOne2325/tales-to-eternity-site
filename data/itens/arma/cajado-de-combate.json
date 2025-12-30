@@ -1,0 +1,13 @@
+{
+  "id": "cajado-de-combate",
+  "name": "Cajado de Combate (2 mãos)",
+  "category": "arma",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/arma/cajado-de-combate.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Balanceado para ataque, defesa e controle do oponente."
+    }
+  ]
+}

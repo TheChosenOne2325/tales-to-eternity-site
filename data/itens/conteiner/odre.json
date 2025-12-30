@@ -1,0 +1,13 @@
+{
+  "id": "odre",
+  "name": "Odre",
+  "category": "conteiner",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/conteiner/odre.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Bolsa de couro usada para transportar água ou bebidas."
+    }
+  ]
+}

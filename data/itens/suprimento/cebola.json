@@ -1,0 +1,13 @@
+{
+  "id": "cebola",
+  "name": "Cebola",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/cebola.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Vegetal aromático usado como base de muitos pratos."
+    }
+  ]
+}

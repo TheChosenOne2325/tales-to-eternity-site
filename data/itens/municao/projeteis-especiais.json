@@ -1,0 +1,13 @@
+{
+  "id": "projeteis-especiais",
+  "name": "Projéteis Especiais",
+  "category": "municao",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/municao/projeteis-especiais.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Munições raras adaptadas para efeitos definidos pela narrativa."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "trigo",
+  "name": "Trigo",
+  "category": "suprimento",
+  "book": "Ecos Dos Cosmos",
+  "img": "assets/imagens/itens/suprimento/trigo.webp",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Grão usado na produção de farinha, pães e massas."
+    }
+  ]
+}
